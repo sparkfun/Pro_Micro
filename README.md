@@ -1,8 +1,9 @@
 Pro Micro
 =========
 
-[![Pro Micro 5V](https://cdn.sparkfun.com//assets/parts/9/3/2/6/12640-01a.jpg)
-*Pro Micro 5V (DEV-12640)*](https://www.sparkfun.com/products/12640)
+![Pro Micro 5V](https://cdn.sparkfun.com//assets/parts/9/3/2/6/12640-01a.jpg)
+
+[*Pro Micro 5V (DEV-12640)*](https://www.sparkfun.com/products/12640)
 
 
 The Pro Micro is a micro controller with an ATMega32U4 IC on board.
@@ -12,6 +13,7 @@ This comes in both a 3.3V and 5V version.
 
 Repository Contents
 -------------------
+* **/Documentation** - Data sheets (.pdf and .svg)
 * **/Hardware** - All Eagle design files (.brd, .sch, .STL)
 * **/Production** - Test bed files and production panel files
 
