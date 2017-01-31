@@ -15,8 +15,8 @@
    viewBox="0 0 990 765"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="Final.svg">
+   inkscape:version="0.92.0 r15299"
+   sodipodi:docname="ProMicro16MHzv1.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -26,11 +26,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.1640753"
-     inkscape:cx="459.20316"
-     inkscape:cy="379.82143"
+     inkscape:zoom="2.3281506"
+     inkscape:cx="721.13042"
+     inkscape:cy="448.54551"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer2"
      showgrid="false"
      units="in"
      inkscape:window-width="1920"
@@ -82,8 +82,7 @@
        font-size="10"
        x="516.5"
        y="517.96002"
-       id="text288"
-       sodipodi:linespacing="125%">
+       id="text288">
       <tspan
          sodipodi:role="line"
          id="tspan4481"
@@ -104,8 +103,7 @@
        font-size="12"
        x="564.5"
        y="517.96002"
-       id="text292"
-       sodipodi:linespacing="125%">
+       id="text292">
       <tspan
          sodipodi:role="line"
          id="tspan4488">D24</tspan>
@@ -124,8 +122,7 @@
        font-size="10"
        x="444.91125"
        y="517.96002"
-       id="text336"
-       sodipodi:linespacing="125%">
+       id="text336">
       <tspan
          sodipodi:role="line"
          id="tspan4483">RX_LED</tspan>
@@ -879,8 +876,7 @@
        font-size="12"
        x="599.04297"
        y="473.52258"
-       id="text244"
-       sodipodi:linespacing="125%">D10/A10</text>
+       id="text244">D10/A10</text>
     <rect
        style="opacity:0.4;fill:#0000ff;stroke:#0000ff;stroke-width:1.01302683"
        height="12.156322"
@@ -1491,12 +1487,11 @@
        y="403.29861"
        id="rect486" />
     <text
-       style="font-size:8.75px;font-family:Montserrat;fill:#000000;-inkscape-font-specification:'Montserrat, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%;"
+       style="font-size:7.5px;font-family:Montserrat;fill:#000000;-inkscape-font-specification:'Montserrat, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
        font-size="10"
        x="241.70915"
        y="415.41168"
-       id="text488"
-       sodipodi:linespacing="125%">10-bit (HS)</text>
+       id="text488">10-bit (HS)</text>
     <rect
        style="opacity:0.1;fill:#0000ff;stroke:#0000ff;stroke-width:1.00942278"
        height="12.113072"
@@ -1597,12 +1592,11 @@
        y="418.43997"
        id="rect514" />
     <text
-       style="font-size:8.75px;font-family:Montserrat;fill:#000000;-inkscape-font-specification:'Montserrat, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%;"
+       style="font-size:7.5px;font-family:Montserrat;fill:#000000;-inkscape-font-specification:'Montserrat, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
        font-size="10"
        x="193.25688"
        y="430.55304"
-       id="text516"
-       sodipodi:linespacing="125%">10-bit (HS)</text>
+       id="text516">10-bit (HS)</text>
     <rect
        style="opacity:0.1;fill:#0000ff;stroke:#0000ff;stroke-width:1.00942278"
        height="12.113072"
@@ -1969,8 +1963,7 @@
        font-size="9"
        x="43.642857"
        y="39.857143"
-       id="text8"
-       sodipodi:linespacing="125%">Name</text>
+       id="text8">Name</text>
     <rect
        style="opacity:0.8;fill:#ff0000;stroke:#ff0000"
        height="12"
@@ -2150,8 +2143,7 @@
        font-size="12"
        x="612.13763"
        y="517.91138"
-       id="text220-9"
-       sodipodi:linespacing="125%">
+       id="text220-9">
       <tspan
          sodipodi:role="line"
          id="tspan4486"
@@ -2168,15 +2160,13 @@
        font-size="12"
        x="21.690067"
        y="624.70215"
-       id="text598"
-       sodipodi:linespacing="125%">Power</text>
+       id="text598">Power</text>
     <text
        style="font-size:7.5px;font-family:Montserrat;fill:#000000;-inkscape-font-specification:'Montserrat, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%;"
        font-size="12"
        x="21.690067"
        y="641.70215"
-       id="text600"
-       sodipodi:linespacing="125%">
+       id="text600">
       <tspan
          sodipodi:role="line"
          id="tspan4460">RAW: 6V-16V</tspan>
@@ -2186,36 +2176,31 @@
        font-size="12"
        x="21.690067"
        y="658.70215"
-       id="text602"
-       sodipodi:linespacing="125%">VCC: 5V at 500mA</text>
+       id="text602">VCC: 5V at 500mA</text>
     <text
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000"
        font-size="12"
        x="537.26263"
        y="621.4248"
-       id="text614"
-       sodipodi:linespacing="125%">LEDs</text>
+       id="text614">LEDs</text>
     <text
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000"
        font-size="12"
        x="537.26263"
        y="638.4248"
-       id="text616"
-       sodipodi:linespacing="125%">Power: Red</text>
+       id="text616">Power: Red</text>
     <text
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000"
        font-size="12"
        x="537.26263"
        y="655.42487"
-       id="text618"
-       sodipodi:linespacing="125%">RX: Yellow</text>
+       id="text618">RX: Yellow</text>
     <text
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000"
        font-size="12"
        x="537.26263"
        y="672.42487"
-       id="text620"
-       sodipodi:linespacing="125%">TX: Green</text>
+       id="text620">TX: Green</text>
     <text
        style="font-size:12px;font-family:Montserrat;fill:#000000"
        font-size="12"
@@ -2227,15 +2212,13 @@
        font-size="12"
        x="30.55118"
        y="182.66"
-       id="text628"
-       sodipodi:linespacing="125%">The Arduino IDE renders all PWM pins as 8-bit</text>
+       id="text628">The Arduino IDE renders all PWM pins as 8-bit</text>
     <text
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000"
        font-size="12"
        x="397.44614"
        y="56.655384"
-       id="text630"
-       sodipodi:linespacing="125%">Pro Micro (Dev-12640)</text>
+       id="text630">Pro Micro (Dev-12640)</text>
     <text
        style="font-size:12px;font-family:Montserrat;fill:#000000"
        font-size="12"
@@ -2247,15 +2230,13 @@
        font-size="12"
        x="419.4996"
        y="251.39928"
-       id="text634"
-       sodipodi:linespacing="125%">J1</text>
+       id="text634">J1</text>
     <text
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.00000048px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:end;writing-mode:lr;text-anchor:end;fill:#000000;"
        font-size="12"
        x="419.4996"
        y="268.39926"
-       id="text636"
-       sodipodi:linespacing="125%">
+       id="text636">
       <tspan
          sodipodi:role="line"
          id="tspan5676">Connects VCC to USB</tspan>
@@ -2268,29 +2249,25 @@
        font-size="12"
        x="23.673742"
        y="693.50415"
-       id="text638"
-       sodipodi:linespacing="125%">USB</text>
+       id="text638">USB</text>
     <text
        style="font-size:7.5px;font-family:Montserrat;fill:#000000;-inkscape-font-specification:'Montserrat, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%;"
        font-size="12"
        x="23.673742"
        y="710.50415"
-       id="text640"
-       sodipodi:linespacing="125%">HID enabled</text>
+       id="text640">HID enabled</text>
     <text
        style="font-size:7.5px;font-family:Montserrat;fill:#000000;-inkscape-font-specification:'Montserrat, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%;"
        font-size="12"
        x="23.673742"
        y="727.50415"
-       id="text642"
-       sodipodi:linespacing="125%">VID: 0x1B4F</text>
+       id="text642">VID: 0x1B4F</text>
     <text
        style="font-size:7.5px;font-family:Montserrat;fill:#000000;-inkscape-font-specification:'Montserrat, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%;"
        font-size="12"
        x="23.673742"
        y="744.50415"
-       id="text644"
-       sodipodi:linespacing="125%">
+       id="text644">
       <tspan
          sodipodi:role="line"
          id="tspan4459">PID: 0x9205 (bootloader); 0x9206 (sketch)</tspan>
@@ -2300,8 +2277,7 @@
        font-size="12"
        x="661.80707"
        y="320.57632"
-       id="text648"
-       sodipodi:linespacing="125%">
+       id="text648">
       <tspan
          sodipodi:role="line"
          id="tspan5664"
@@ -2318,29 +2294,25 @@
        font-size="12"
        x="536.13202"
        y="709.72003"
-       id="text650"
-       sodipodi:linespacing="125%">Serial</text>
+       id="text650">Serial</text>
     <text
        style="font-size:7.5px;font-family:Montserrat;fill:#000000;-inkscape-font-specification:'Montserrat, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%;"
        font-size="12"
        x="536.13202"
        y="726.72009"
-       id="text652"
-       sodipodi:linespacing="125%">Use Serial for the USB connection</text>
+       id="text652">Use Serial for the USB connection</text>
     <text
        style="font-size:7.5px;font-family:Montserrat;fill:#000000;-inkscape-font-specification:'Montserrat, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%;"
        font-size="12"
        x="536.13202"
        y="743.72009"
-       id="text654"
-       sodipodi:linespacing="125%">Use Serial1 for the hardware serial connection</text>
+       id="text654">Use Serial1 for the hardware serial connection</text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;"
        x="295.75061"
        y="619.41681"
-       id="text3383"
-       sodipodi:linespacing="125%"><tspan
+       id="text3383"><tspan
          sodipodi:role="line"
          id="tspan4536">ATmega32U4</tspan></text>
     <text
@@ -2348,8 +2320,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;"
        x="301.11572"
        y="629.89703"
-       id="text3391"
-       sodipodi:linespacing="125%"><tspan
+       id="text3391"><tspan
          sodipodi:role="line"
          id="tspan4508">Built in USB 2.0</tspan><tspan
          sodipodi:role="line"
@@ -2383,8 +2354,7 @@
        style="font-style:normal;font-weight:normal;font-size:13.18684483px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        x="314.59097"
        y="630.4256"
-       id="text3417"
-       sodipodi:linespacing="125%"><tspan
+       id="text3417"><tspan
          sodipodi:role="line"
          id="tspan3419"
          x="314.59097"
@@ -2397,5 +2367,37 @@
        preserveAspectRatio="none"
        height="150"
        width="197.36842" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;line-height:23.4375px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375"
+       x="48.581505"
+       y="422.76346"
+       id="text4010"><tspan
+         style="stroke-width:0.9375"
+         sodipodi:role="line"
+         id="tspan4022"
+         x="48.581505"
+         y="438.7034" /><tspan
+         style="stroke-width:0.9375"
+         sodipodi:role="line"
+         id="tspan4024"
+         x="48.581505"
+         y="462.1409">____</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;line-height:23.4375px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375"
+       x="146.03009"
+       y="361.95874"
+       id="text4010-5"><tspan
+         style="stroke-width:0.9375"
+         sodipodi:role="line"
+         id="tspan4022-8"
+         x="146.03009"
+         y="377.89868" /><tspan
+         style="stroke-width:0.9375"
+         sodipodi:role="line"
+         id="tspan4024-1"
+         x="146.03009"
+         y="401.33618">____</tspan></text>
   </g>
 </svg>
