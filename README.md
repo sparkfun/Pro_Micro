@@ -1,4 +1,4 @@
-SparkFun Pro Micro
+Pro Micro
 =========
 
 <table class="table table-hover table-striped table-bordered">
