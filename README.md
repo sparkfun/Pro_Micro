@@ -20,6 +20,7 @@ This comes in both a 3.3V and 5V version.
 Repository Contents
 -------------------
 * **/Documentation** - Data sheets (.pdf and .svg)
+* **/Firmware** - Arduino example code used in the hookup guide
 * **/Hardware** - All Eagle design files (.brd, .sch, .STL)
 * **/Production** - Test bed files and production panel files
 
