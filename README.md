@@ -26,8 +26,8 @@ Repository Contents
 Documentation
 --------------
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide)** - Basic hookup guide for the Pro Micro.
-* **[SparkFun Arduino Board Addon](https://github.com/sparkfun/Arduino_Boards/)]** - Arduino board addon for Pro Micro.
-* **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical datasheets for various SparkFun products.
+* **[SparkFun Arduino Board Addon](https://github.com/sparkfun/Arduino_Boards/)** - Arduino board addon for Pro Micro.
+* **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** - Graphical datasheets for various SparkFun products.
 
 Product Versions
 ----------------
