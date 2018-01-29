@@ -15,7 +15,7 @@
    viewBox="0 0 990 765"
    id="svg2"
    version="1.1"
-   inkscape:version="0.92.0 r15299"
+   inkscape:version="0.92.1 r15371"
    sodipodi:docname="ProMicro8MHzv1.svg">
   <defs
      id="defs4" />
@@ -34,7 +34,7 @@
      showgrid="false"
      units="in"
      inkscape:window-width="1920"
-     inkscape:window-height="1058"
+     inkscape:window-height="996"
      inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1" />
@@ -46,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -99,14 +99,16 @@
        y="505.96002"
        id="rect290" />
     <text
-       style="font-size:12.00000048px;font-family:Montserrat;fill:#000000;-inkscape-font-specification:'Montserrat, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.00000095px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000"
        font-size="12"
        x="564.5"
        y="517.96002"
        id="text292">
       <tspan
          sodipodi:role="line"
-         id="tspan4488">D24</tspan>
+         id="tspan4488"
+         x="564.5"
+         y="517.96002">D30</tspan>
     </text>
     <rect
        style="opacity:0.3;fill:#ffffff;stroke:#000000"
@@ -2159,7 +2161,7 @@
          sodipodi:role="line"
          id="tspan4022"
          x="148.99164"
-         y="377.12976"></tspan><tspan
+         y="377.12976" /><tspan
          sodipodi:role="line"
          id="tspan4024"
          x="148.99164"
