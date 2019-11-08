@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -4645,85 +4645,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;p&gt;Example device(s):
 &lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
-<pad name="1" x="0" y="0" drill="1" diameter="1.524" rot="R180"/>
-<pad name="2" x="0" y="2.54" drill="1" diameter="1.524" rot="R180"/>
-<pad name="3" x="0" y="5.08" drill="0.8" diameter="1.524" rot="R180"/>
-<pad name="4" x="0" y="7.62" drill="0.8" diameter="1.524" rot="R180"/>
-<rectangle x1="-0.254" y1="7.366" x2="0.254" y2="7.874" layer="51" rot="R90"/>
-<rectangle x1="-0.254" y1="4.826" x2="0.254" y2="5.334" layer="51" rot="R90"/>
-<rectangle x1="-0.254" y1="2.286" x2="0.254" y2="2.794" layer="51" rot="R90"/>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51" rot="R90"/>
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="22.86" width="0.0254" layer="51"/>
-<polygon width="0.0254" layer="1">
-<vertex x="-1.27" y="3.3655"/>
-<vertex x="0" y="3.3655" curve="-87.205638"/>
-<vertex x="0.762" y="2.54" curve="-84.098852"/>
-<vertex x="0" y="1.7145"/>
-<vertex x="-1.27" y="1.7145"/>
-</polygon>
-<hole x="-1.27" y="2.54" drill="1"/>
-<polygon width="0.0254" layer="1">
-<vertex x="-1.27" y="5.9055"/>
-<vertex x="0" y="5.9055" curve="-87.205638"/>
-<vertex x="0.762" y="5.08" curve="-84.098852"/>
-<vertex x="0" y="4.2545"/>
-<vertex x="-1.27" y="4.2545"/>
-</polygon>
-<hole x="-1.27" y="5.08" drill="0.8"/>
-<polygon width="0.0254" layer="1">
-<vertex x="-1.27" y="0.8255"/>
-<vertex x="0" y="0.8255" curve="-87.205638"/>
-<vertex x="0.762" y="0" curve="-84.098852"/>
-<vertex x="0" y="-0.8255"/>
-<vertex x="-1.27" y="-0.8255"/>
-</polygon>
-<hole x="-1.27" y="0" drill="1"/>
-<hole x="-1.27" y="7.62" drill="0.8"/>
-<polygon width="0.0254" layer="1">
-<vertex x="-1.27" y="8.4455"/>
-<vertex x="0" y="8.4455" curve="-87.205638"/>
-<vertex x="0.762" y="7.62" curve="-84.098852"/>
-<vertex x="0" y="6.7945"/>
-<vertex x="-1.27" y="6.7945"/>
-</polygon>
-<polygon width="0.0254" layer="16">
-<vertex x="-1.27" y="-0.8255"/>
-<vertex x="0" y="-0.8255" curve="87.205638"/>
-<vertex x="0.762" y="0" curve="84.098852"/>
-<vertex x="0" y="0.8255"/>
-<vertex x="-1.27" y="0.8255"/>
-</polygon>
-<polygon width="0.0254" layer="29">
-<vertex x="-1.27" y="0.8255"/>
-<vertex x="0" y="0.8255" curve="-87.205638"/>
-<vertex x="0.762" y="0" curve="-84.098852"/>
-<vertex x="0" y="-0.8255"/>
-<vertex x="-1.27" y="-0.8255"/>
-</polygon>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="27.94" width="0.0254" layer="51"/>
 <polygon width="0.0254" layer="30">
 <vertex x="-1.27" y="-0.8255"/>
 <vertex x="0" y="-0.8255" curve="87.205638"/>
 <vertex x="0.762" y="0" curve="84.098852"/>
 <vertex x="0" y="0.8255"/>
 <vertex x="-1.27" y="0.8255"/>
-</polygon>
-<text x="2.54" y="6.35" size="0.254" layer="51" align="center">0.8mm Tight hole</text>
-<text x="2.54" y="1.27" size="0.254" layer="51" align="center">Normal hole</text>
-<polygon width="0.0254" layer="16">
-<vertex x="-1.27" y="1.7145"/>
-<vertex x="0" y="1.7145" curve="87.205638"/>
-<vertex x="0.762" y="2.54" curve="84.098852"/>
-<vertex x="0" y="3.3655"/>
-<vertex x="-1.27" y="3.3655"/>
-</polygon>
-<polygon width="0.0254" layer="29">
-<vertex x="-1.27" y="3.3655"/>
-<vertex x="0" y="3.3655" curve="-87.205638"/>
-<vertex x="0.762" y="2.54" curve="-84.098852"/>
-<vertex x="0" y="1.7145"/>
-<vertex x="-1.27" y="1.7145"/>
 </polygon>
 <polygon width="0.0254" layer="30">
 <vertex x="-1.27" y="1.7145"/>
@@ -4732,40 +4662,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0" y="3.3655"/>
 <vertex x="-1.27" y="3.3655"/>
 </polygon>
-<polygon width="0.0254" layer="16">
-<vertex x="-1.27" y="4.2545"/>
-<vertex x="0" y="4.2545" curve="87.205638"/>
-<vertex x="0.762" y="5.08" curve="84.098852"/>
-<vertex x="0" y="5.9055"/>
-<vertex x="-1.27" y="5.9055"/>
-</polygon>
-<polygon width="0.0254" layer="29">
-<vertex x="-1.27" y="5.9055"/>
-<vertex x="0" y="5.9055" curve="-87.205638"/>
-<vertex x="0.762" y="5.08" curve="-84.098852"/>
-<vertex x="0" y="4.2545"/>
-<vertex x="-1.27" y="4.2545"/>
-</polygon>
 <polygon width="0.0254" layer="30">
 <vertex x="-1.27" y="4.2545"/>
 <vertex x="0" y="4.2545" curve="87.205638"/>
 <vertex x="0.762" y="5.08" curve="84.098852"/>
 <vertex x="0" y="5.9055"/>
 <vertex x="-1.27" y="5.9055"/>
-</polygon>
-<polygon width="0.0254" layer="16">
-<vertex x="-1.27" y="6.7945"/>
-<vertex x="0" y="6.7945" curve="87.205638"/>
-<vertex x="0.762" y="7.62" curve="84.098852"/>
-<vertex x="0" y="8.4455"/>
-<vertex x="-1.27" y="8.4455"/>
-</polygon>
-<polygon width="0.0254" layer="29">
-<vertex x="-1.27" y="8.4455"/>
-<vertex x="0" y="8.4455" curve="-87.205638"/>
-<vertex x="0.762" y="7.62" curve="-84.098852"/>
-<vertex x="0" y="6.7945"/>
-<vertex x="-1.27" y="6.7945"/>
 </polygon>
 <polygon width="0.0254" layer="30">
 <vertex x="-1.27" y="6.7945"/>
@@ -4774,62 +4676,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0" y="8.4455"/>
 <vertex x="-1.27" y="8.4455"/>
 </polygon>
-<text x="2.54" y="0.762" size="0.254" layer="51" align="center">Tight annular</text>
-<pad name="5" x="0" y="10.16" drill="0.85" diameter="1.524" rot="R180"/>
-<pad name="6" x="0" y="12.7" drill="0.85" diameter="1.524" rot="R180"/>
-<rectangle x1="-0.254" y1="12.446" x2="0.254" y2="12.954" layer="51" rot="R90"/>
-<rectangle x1="-0.254" y1="9.906" x2="0.254" y2="10.414" layer="51" rot="R90"/>
-<polygon width="0.0254" layer="1">
-<vertex x="-1.27" y="10.9855"/>
-<vertex x="0" y="10.9855" curve="-87.205638"/>
-<vertex x="0.762" y="10.16" curve="-84.098852"/>
-<vertex x="0" y="9.3345"/>
-<vertex x="-1.27" y="9.3345"/>
-</polygon>
-<hole x="-1.27" y="10.16" drill="0.85"/>
-<hole x="-1.27" y="12.7" drill="0.85"/>
-<polygon width="0.0254" layer="1">
-<vertex x="-1.27" y="13.5255"/>
-<vertex x="0" y="13.5255" curve="-87.205638"/>
-<vertex x="0.762" y="12.7" curve="-84.098852"/>
-<vertex x="0" y="11.8745"/>
-<vertex x="-1.27" y="11.8745"/>
-</polygon>
-<polygon width="0.0254" layer="16">
-<vertex x="-1.27" y="9.3345"/>
-<vertex x="0" y="9.3345" curve="87.205638"/>
-<vertex x="0.762" y="10.16" curve="84.098852"/>
-<vertex x="0" y="10.9855"/>
-<vertex x="-1.27" y="10.9855"/>
-</polygon>
-<polygon width="0.0254" layer="16">
-<vertex x="-1.27" y="11.8745"/>
-<vertex x="0" y="11.8745" curve="87.205638"/>
-<vertex x="0.762" y="12.7" curve="84.098852"/>
-<vertex x="0" y="13.5255"/>
-<vertex x="-1.27" y="13.5255"/>
-</polygon>
-<text x="2.54" y="11.43" size="0.254" layer="51" align="center">0.85mm Tight hole</text>
-<polygon width="0.0254" layer="29">
-<vertex x="-1.27" y="10.9855"/>
-<vertex x="0" y="10.9855" curve="-87.205638"/>
-<vertex x="0.762" y="10.16" curve="-84.098852"/>
-<vertex x="0" y="9.3345"/>
-<vertex x="-1.27" y="9.3345"/>
-</polygon>
 <polygon width="0.0254" layer="30">
 <vertex x="-1.27" y="9.3345"/>
 <vertex x="0" y="9.3345" curve="87.205638"/>
 <vertex x="0.762" y="10.16" curve="84.098852"/>
 <vertex x="0" y="10.9855"/>
 <vertex x="-1.27" y="10.9855"/>
-</polygon>
-<polygon width="0.0254" layer="29">
-<vertex x="-1.27" y="13.5255"/>
-<vertex x="0" y="13.5255" curve="-87.205638"/>
-<vertex x="0.762" y="12.7" curve="-84.098852"/>
-<vertex x="0" y="11.8745"/>
-<vertex x="-1.27" y="11.8745"/>
 </polygon>
 <polygon width="0.0254" layer="30">
 <vertex x="-1.27" y="11.8745"/>
@@ -4849,8 +4701,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.762" y="14.4145"/>
 <vertex x="-1.27" y="14.4145"/>
 </polygon>
-<hole x="-1.27" y="15.24" drill="0.85"/>
-<hole x="-1.27" y="17.78" drill="0.85"/>
 <polygon width="0.0254" layer="1">
 <vertex x="-1.27" y="18.6055"/>
 <vertex x="0.762" y="18.6055"/>
@@ -4872,7 +4722,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0" y="18.6055"/>
 <vertex x="-1.27" y="18.6055"/>
 </polygon>
-<text x="2.54" y="16.51" size="0.254" layer="51" align="center">0.85mm Square hole</text>
 <polygon width="0.0254" layer="29">
 <vertex x="-1.27" y="16.0655"/>
 <vertex x="0.762" y="16.0655"/>
@@ -4886,104 +4735,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.762" y="17.78"/>
 <vertex x="0.762" y="16.9545"/>
 <vertex x="-1.27" y="16.9545"/>
-</polygon>
-<pad name="9" x="0" y="20.32" drill="0.8" diameter="1.016" rot="R180"/>
-<pad name="10" x="0" y="22.86" drill="0.8" diameter="1.016" rot="R180"/>
-<rectangle x1="-0.254" y1="22.606" x2="0.254" y2="23.114" layer="51" rot="R90"/>
-<rectangle x1="-0.254" y1="20.066" x2="0.254" y2="20.574" layer="51" rot="R90"/>
-<polygon width="0.0254" layer="1">
-<vertex x="-1.27" y="21.1455"/>
-<vertex x="0.762" y="21.1455"/>
-<vertex x="0.762" y="20.32"/>
-<vertex x="0.762" y="19.4945"/>
-<vertex x="-1.27" y="19.4945"/>
-</polygon>
-<hole x="-1.27" y="20.32" drill="1"/>
-<hole x="-1.27" y="22.86" drill="1"/>
-<polygon width="0.0254" layer="1">
-<vertex x="-1.27" y="23.6855"/>
-<vertex x="0.762" y="23.6855"/>
-<vertex x="0.762" y="22.86"/>
-<vertex x="0.762" y="22.0345"/>
-<vertex x="-1.27" y="22.0345"/>
-</polygon>
-<polygon width="0.0254" layer="16">
-<vertex x="-1.27" y="19.4945"/>
-<vertex x="0" y="19.4945" curve="87.205638"/>
-<vertex x="0.762" y="20.32" curve="84.098852"/>
-<vertex x="0" y="21.1455"/>
-<vertex x="-1.27" y="21.1455"/>
-</polygon>
-<polygon width="0.0254" layer="16">
-<vertex x="-1.27" y="22.0345"/>
-<vertex x="0" y="22.0345" curve="87.205638"/>
-<vertex x="0.762" y="22.86" curve="84.098852"/>
-<vertex x="0" y="23.6855"/>
-<vertex x="-1.27" y="23.6855"/>
-</polygon>
-<text x="2.54" y="21.59" size="0.254" layer="51" align="center">0.8mm Square hole</text>
-<polygon width="0.0254" layer="29">
-<vertex x="-1.27" y="21.1455"/>
-<vertex x="0.762" y="21.1455"/>
-<vertex x="0.762" y="20.32"/>
-<vertex x="0.762" y="19.4945"/>
-<vertex x="-1.27" y="19.4945"/>
-</polygon>
-<polygon width="0.0254" layer="29">
-<vertex x="-1.27" y="23.6855"/>
-<vertex x="0.762" y="23.6855"/>
-<vertex x="0.762" y="22.86"/>
-<vertex x="0.762" y="22.0345"/>
-<vertex x="-1.27" y="22.0345"/>
-</polygon>
-<wire x1="-1.27" y1="3.81" x2="-1.27" y2="27.94" width="0.0254" layer="51"/>
-<pad name="11" x="0" y="25.4" drill="0.85" diameter="1.016" rot="R180"/>
-<pad name="12" x="0" y="27.94" drill="0.85" diameter="1.016" rot="R180"/>
-<rectangle x1="-0.254" y1="27.686" x2="0.254" y2="28.194" layer="51" rot="R90"/>
-<rectangle x1="-0.254" y1="25.146" x2="0.254" y2="25.654" layer="51" rot="R90"/>
-<hole x="-1.27" y="25.4" drill="0.95"/>
-<hole x="-1.27" y="27.94" drill="0.95"/>
-<polygon width="0.0254" layer="1">
-<vertex x="-1.27" y="28.575"/>
-<vertex x="0.762" y="28.575"/>
-<vertex x="0.762" y="27.305"/>
-<vertex x="-1.27" y="27.305"/>
-</polygon>
-<polygon width="0.0254" layer="16">
-<vertex x="-1.27" y="24.765"/>
-<vertex x="0" y="24.765" curve="87.205638"/>
-<vertex x="0.762" y="25.4" curve="84.098852"/>
-<vertex x="0" y="26.035"/>
-<vertex x="-1.27" y="26.035"/>
-</polygon>
-<polygon width="0.0254" layer="16">
-<vertex x="-1.27" y="27.305"/>
-<vertex x="0" y="27.305" curve="87.205638"/>
-<vertex x="0.762" y="27.94" curve="84.098852"/>
-<vertex x="0" y="28.575"/>
-<vertex x="-1.27" y="28.575"/>
-</polygon>
-<text x="2.54" y="26.67" size="0.254" layer="51" align="center">0.85mm mixed hole</text>
-<polygon width="0.0254" layer="29">
-<vertex x="-1.27" y="26.2255"/>
-<vertex x="0.762" y="26.2255"/>
-<vertex x="0.762" y="25.4"/>
-<vertex x="0.762" y="24.5745"/>
-<vertex x="-1.27" y="24.5745"/>
-</polygon>
-<polygon width="0.0254" layer="29">
-<vertex x="-1.27" y="28.7655"/>
-<vertex x="0.762" y="28.7655"/>
-<vertex x="0.762" y="27.94"/>
-<vertex x="0.762" y="27.1145"/>
-<vertex x="-1.27" y="27.1145"/>
-</polygon>
-<polygon width="0.0254" layer="1">
-<vertex x="-1.27" y="26.035"/>
-<vertex x="0" y="26.035" curve="-87.205638"/>
-<vertex x="0.762" y="25.4" curve="-84.098852"/>
-<vertex x="0" y="24.765"/>
-<vertex x="-1.27" y="24.765"/>
 </polygon>
 <polygon width="0.0254" layer="30">
 <vertex x="-1.27" y="14.4145"/>
@@ -5027,8 +4778,248 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0" y="28.7655"/>
 <vertex x="-1.27" y="28.7655"/>
 </polygon>
-<text x="2.54" y="26.289" size="0.254" layer="51" align="center">0.95mm Edge drill</text>
-<text x="2.54" y="21.19" size="0.254" layer="51" align="center">1mm edge drill</text>
+<pad name="6" x="0" y="12.7" drill="0.85" diameter="1.016" rot="R180"/>
+<rectangle x1="-0.254" y1="12.446" x2="0.254" y2="12.954" layer="51" rot="R90"/>
+<polygon width="0.0254" layer="1">
+<vertex x="-1.27" y="13.5255"/>
+<vertex x="0.762" y="13.5255"/>
+<vertex x="0.762" y="12.7"/>
+<vertex x="0.762" y="11.8745"/>
+<vertex x="-1.27" y="11.8745"/>
+</polygon>
+<polygon width="0.0254" layer="16">
+<vertex x="-1.27" y="11.8745"/>
+<vertex x="0" y="11.8745" curve="87.205638"/>
+<vertex x="0.762" y="12.7" curve="84.098852"/>
+<vertex x="0" y="13.5255"/>
+<vertex x="-1.27" y="13.5255"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-1.27" y="13.5255"/>
+<vertex x="0.762" y="13.5255"/>
+<vertex x="0.762" y="12.7"/>
+<vertex x="0.762" y="11.8745"/>
+<vertex x="-1.27" y="11.8745"/>
+</polygon>
+<pad name="10" x="0" y="22.86" drill="0.85" diameter="1.016" rot="R180"/>
+<pad name="11" x="0" y="25.4" drill="0.85" diameter="1.016" rot="R180"/>
+<rectangle x1="-0.254" y1="25.146" x2="0.254" y2="25.654" layer="51" rot="R90"/>
+<rectangle x1="-0.254" y1="22.606" x2="0.254" y2="23.114" layer="51" rot="R90"/>
+<polygon width="0.0254" layer="1">
+<vertex x="-1.27" y="23.6855"/>
+<vertex x="0.762" y="23.6855"/>
+<vertex x="0.762" y="22.86"/>
+<vertex x="0.762" y="22.0345"/>
+<vertex x="-1.27" y="22.0345"/>
+</polygon>
+<polygon width="0.0254" layer="1">
+<vertex x="-1.27" y="26.2255"/>
+<vertex x="0.762" y="26.2255"/>
+<vertex x="0.762" y="25.4"/>
+<vertex x="0.762" y="24.5745"/>
+<vertex x="-1.27" y="24.5745"/>
+</polygon>
+<polygon width="0.0254" layer="16">
+<vertex x="-1.27" y="22.0345"/>
+<vertex x="0" y="22.0345" curve="87.205638"/>
+<vertex x="0.762" y="22.86" curve="84.098852"/>
+<vertex x="0" y="23.6855"/>
+<vertex x="-1.27" y="23.6855"/>
+</polygon>
+<polygon width="0.0254" layer="16">
+<vertex x="-1.27" y="24.5745"/>
+<vertex x="0" y="24.5745" curve="87.205638"/>
+<vertex x="0.762" y="25.4" curve="84.098852"/>
+<vertex x="0" y="26.2255"/>
+<vertex x="-1.27" y="26.2255"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-1.27" y="23.6855"/>
+<vertex x="0.762" y="23.6855"/>
+<vertex x="0.762" y="22.86"/>
+<vertex x="0.762" y="22.0345"/>
+<vertex x="-1.27" y="22.0345"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-1.27" y="26.2255"/>
+<vertex x="0.762" y="26.2255"/>
+<vertex x="0.762" y="25.4"/>
+<vertex x="0.762" y="24.5745"/>
+<vertex x="-1.27" y="24.5745"/>
+</polygon>
+<pad name="9" x="0" y="20.32" drill="0.85" diameter="1.016" rot="R180"/>
+<rectangle x1="-0.254" y1="20.066" x2="0.254" y2="20.574" layer="51" rot="R90"/>
+<polygon width="0.0254" layer="1">
+<vertex x="-1.27" y="21.1455"/>
+<vertex x="0.762" y="21.1455"/>
+<vertex x="0.762" y="20.32"/>
+<vertex x="0.762" y="19.4945"/>
+<vertex x="-1.27" y="19.4945"/>
+</polygon>
+<polygon width="0.0254" layer="16">
+<vertex x="-1.27" y="19.4945"/>
+<vertex x="0" y="19.4945" curve="87.205638"/>
+<vertex x="0.762" y="20.32" curve="84.098852"/>
+<vertex x="0" y="21.1455"/>
+<vertex x="-1.27" y="21.1455"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-1.27" y="21.1455"/>
+<vertex x="0.762" y="21.1455"/>
+<vertex x="0.762" y="20.32"/>
+<vertex x="0.762" y="19.4945"/>
+<vertex x="-1.27" y="19.4945"/>
+</polygon>
+<pad name="12" x="0" y="27.94" drill="0.85" diameter="1.016" rot="R180"/>
+<rectangle x1="-0.254" y1="27.686" x2="0.254" y2="28.194" layer="51" rot="R90"/>
+<polygon width="0.0254" layer="1">
+<vertex x="-1.27" y="28.7655"/>
+<vertex x="0.762" y="28.7655"/>
+<vertex x="0.762" y="27.94"/>
+<vertex x="0.762" y="27.1145"/>
+<vertex x="-1.27" y="27.1145"/>
+</polygon>
+<polygon width="0.0254" layer="16">
+<vertex x="-1.27" y="27.1145"/>
+<vertex x="0" y="27.1145" curve="87.205638"/>
+<vertex x="0.762" y="27.94" curve="84.098852"/>
+<vertex x="0" y="28.7655"/>
+<vertex x="-1.27" y="28.7655"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-1.27" y="28.7655"/>
+<vertex x="0.762" y="28.7655"/>
+<vertex x="0.762" y="27.94"/>
+<vertex x="0.762" y="27.1145"/>
+<vertex x="-1.27" y="27.1145"/>
+</polygon>
+<pad name="5" x="0" y="10.16" drill="0.85" diameter="1.016" rot="R180"/>
+<rectangle x1="-0.254" y1="9.906" x2="0.254" y2="10.414" layer="51" rot="R90"/>
+<polygon width="0.0254" layer="1">
+<vertex x="-1.27" y="10.9855"/>
+<vertex x="0.762" y="10.9855"/>
+<vertex x="0.762" y="10.16"/>
+<vertex x="0.762" y="9.3345"/>
+<vertex x="-1.27" y="9.3345"/>
+</polygon>
+<polygon width="0.0254" layer="16">
+<vertex x="-1.27" y="9.3345"/>
+<vertex x="0" y="9.3345" curve="87.205638"/>
+<vertex x="0.762" y="10.16" curve="84.098852"/>
+<vertex x="0" y="10.9855"/>
+<vertex x="-1.27" y="10.9855"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-1.27" y="10.9855"/>
+<vertex x="0.762" y="10.9855"/>
+<vertex x="0.762" y="10.16"/>
+<vertex x="0.762" y="9.3345"/>
+<vertex x="-1.27" y="9.3345"/>
+</polygon>
+<pad name="3" x="0" y="5.08" drill="0.85" diameter="1.016" rot="R180"/>
+<pad name="4" x="0" y="7.62" drill="0.85" diameter="1.016" rot="R180"/>
+<rectangle x1="-0.254" y1="7.366" x2="0.254" y2="7.874" layer="51" rot="R90"/>
+<rectangle x1="-0.254" y1="4.826" x2="0.254" y2="5.334" layer="51" rot="R90"/>
+<polygon width="0.0254" layer="1">
+<vertex x="-1.27" y="5.9055"/>
+<vertex x="0.762" y="5.9055"/>
+<vertex x="0.762" y="5.08"/>
+<vertex x="0.762" y="4.2545"/>
+<vertex x="-1.27" y="4.2545"/>
+</polygon>
+<polygon width="0.0254" layer="1">
+<vertex x="-1.27" y="8.4455"/>
+<vertex x="0.762" y="8.4455"/>
+<vertex x="0.762" y="7.62"/>
+<vertex x="0.762" y="6.7945"/>
+<vertex x="-1.27" y="6.7945"/>
+</polygon>
+<polygon width="0.0254" layer="16">
+<vertex x="-1.27" y="4.2545"/>
+<vertex x="0" y="4.2545" curve="87.205638"/>
+<vertex x="0.762" y="5.08" curve="84.098852"/>
+<vertex x="0" y="5.9055"/>
+<vertex x="-1.27" y="5.9055"/>
+</polygon>
+<polygon width="0.0254" layer="16">
+<vertex x="-1.27" y="6.7945"/>
+<vertex x="0" y="6.7945" curve="87.205638"/>
+<vertex x="0.762" y="7.62" curve="84.098852"/>
+<vertex x="0" y="8.4455"/>
+<vertex x="-1.27" y="8.4455"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-1.27" y="5.9055"/>
+<vertex x="0.762" y="5.9055"/>
+<vertex x="0.762" y="5.08"/>
+<vertex x="0.762" y="4.2545"/>
+<vertex x="-1.27" y="4.2545"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-1.27" y="8.4455"/>
+<vertex x="0.762" y="8.4455"/>
+<vertex x="0.762" y="7.62"/>
+<vertex x="0.762" y="6.7945"/>
+<vertex x="-1.27" y="6.7945"/>
+</polygon>
+<pad name="2" x="0" y="2.54" drill="0.85" diameter="1.016" rot="R180"/>
+<rectangle x1="-0.254" y1="2.286" x2="0.254" y2="2.794" layer="51" rot="R90"/>
+<polygon width="0.0254" layer="1">
+<vertex x="-1.27" y="3.3655"/>
+<vertex x="0.762" y="3.3655"/>
+<vertex x="0.762" y="2.54"/>
+<vertex x="0.762" y="1.7145"/>
+<vertex x="-1.27" y="1.7145"/>
+</polygon>
+<polygon width="0.0254" layer="16">
+<vertex x="-1.27" y="1.7145"/>
+<vertex x="0" y="1.7145" curve="87.205638"/>
+<vertex x="0.762" y="2.54" curve="84.098852"/>
+<vertex x="0" y="3.3655"/>
+<vertex x="-1.27" y="3.3655"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-1.27" y="3.3655"/>
+<vertex x="0.762" y="3.3655"/>
+<vertex x="0.762" y="2.54"/>
+<vertex x="0.762" y="1.7145"/>
+<vertex x="-1.27" y="1.7145"/>
+</polygon>
+<pad name="1" x="0" y="0" drill="0.85" diameter="1.016" rot="R180"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51" rot="R90"/>
+<polygon width="0.0254" layer="1">
+<vertex x="-1.27" y="0.8255"/>
+<vertex x="0.762" y="0.8255"/>
+<vertex x="0.762" y="0"/>
+<vertex x="0.762" y="-0.8255"/>
+<vertex x="-1.27" y="-0.8255"/>
+</polygon>
+<polygon width="0.0254" layer="16">
+<vertex x="-1.27" y="-0.8255"/>
+<vertex x="0" y="-0.8255" curve="87.205638"/>
+<vertex x="0.762" y="0" curve="84.098852"/>
+<vertex x="0" y="0.8255"/>
+<vertex x="-1.27" y="0.8255"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-1.27" y="0.8255"/>
+<vertex x="0.762" y="0.8255"/>
+<vertex x="0.762" y="0"/>
+<vertex x="0.762" y="-0.8255"/>
+<vertex x="-1.27" y="-0.8255"/>
+</polygon>
+<pad name="12B" x="-1.27" y="27.94" drill="0.85"/>
+<pad name="11B" x="-1.27" y="25.4" drill="0.85"/>
+<pad name="10B" x="-1.27" y="22.86" drill="0.85"/>
+<pad name="9B" x="-1.27" y="20.32" drill="0.85"/>
+<pad name="8B" x="-1.27" y="17.78" drill="0.85"/>
+<pad name="7B" x="-1.27" y="15.24" drill="0.85"/>
+<pad name="6B" x="-1.27" y="12.7" drill="0.85"/>
+<pad name="5B" x="-1.27" y="10.16" drill="0.85"/>
+<pad name="4B" x="-1.27" y="7.62" drill="0.85"/>
+<pad name="3B" x="-1.27" y="5.08" drill="0.85"/>
+<pad name="2B" x="-1.27" y="2.54" drill="0.85"/>
+<pad name="1B" x="-1.27" y="0" drill="0.85"/>
 </package>
 </packages>
 </library>
@@ -6265,6 +6256,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="JP14" pad="GND"/>
 <contactref element="J5" pad="GND"/>
 <contactref element="J5" pad="GND2"/>
+<contactref element="J3" pad="9B"/>
+<contactref element="J4" pad="2B"/>
+<contactref element="J3" pad="10"/>
+<contactref element="J3" pad="10B"/>
 </signal>
 <signal name="AREF">
 <contactref element="C1" pad="2"/>
@@ -6307,6 +6302,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="4.191" y1="16.002" x2="4.191" y2="13.081" width="0.1524" layer="1"/>
 <wire x1="4.191" y1="13.081" x2="4.191" y2="12.827" width="0.1524" layer="1"/>
 <wire x1="3.048" y1="13.081" x2="4.191" y2="13.081" width="0.1524" layer="1"/>
+<contactref element="J4" pad="3B"/>
+<wire x1="16.51" y1="24.13" x2="17.78" y2="24.13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCK">
 <contactref element="U3" pad="9"/>
@@ -6325,6 +6322,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <via x="13.716" y="15.113" extent="1-16" drill="0.3048"/>
 <wire x1="13.716" y1="15.113" x2="13.423946875" y2="14.820946875" width="0.1524" layer="16"/>
 <wire x1="13.423946875" y1="14.820946875" x2="6.35" y2="14.820946875" width="0.1524" layer="16"/>
+<contactref element="J4" pad="9B"/>
+<wire x1="16.51" y1="8.89" x2="17.78" y2="8.89" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$38">
 <contactref element="R11" pad="1"/>
@@ -6349,6 +6348,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="13.352753125" y1="14.465346875" x2="6.784665625" y2="14.465346875" width="0.1524" layer="16"/>
 <contactref element="J4" pad="10"/>
 <wire x1="15.24" y1="7.62" x2="16.51" y2="6.35" width="0.1524" layer="16"/>
+<contactref element="J4" pad="10B"/>
+<wire x1="16.51" y1="6.35" x2="17.78" y2="6.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MOSI">
 <contactref element="U3" pad="10"/>
@@ -6363,6 +6364,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="7.543796875" y1="14.109746875" x2="7.366" y2="13.93195" width="0.1524" layer="16"/>
 <contactref element="J4" pad="11"/>
 <wire x1="14.8844" y1="5.4356" x2="16.51" y2="3.81" width="0.1524" layer="16"/>
+<contactref element="J4" pad="11B"/>
+<wire x1="16.51" y1="3.81" x2="17.78" y2="3.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TXO">
 <contactref element="U3" pad="21"/>
@@ -6380,6 +6383,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="8.464746875" y1="10.77609375" x2="7.9150625" y2="10.226409375" width="0.1524" layer="1"/>
 <contactref element="J3" pad="12"/>
 <wire x1="2.667" y1="27.813" x2="1.27" y2="29.21" width="0.1524" layer="16"/>
+<contactref element="J3" pad="12B"/>
+<wire x1="1.27" y1="29.21" x2="0" y2="29.21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
 <contactref element="R2" pad="2"/>
@@ -6443,6 +6448,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="3.479796875" y1="12.3952" x2="3.45644375" y2="12.418553125" width="0.1524" layer="1"/>
 <contactref element="JP4" pad="2"/>
 <wire x1="8.89" y1="22.479" x2="8.89" y2="24.13" width="0.3048" layer="16"/>
+<contactref element="J4" pad="4B"/>
+<wire x1="16.51" y1="21.59" x2="17.78" y2="21.59" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RAW" class="1">
 <contactref element="D2" pad="C"/>
@@ -6475,6 +6482,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="9.906" y1="24.13" x2="10.541" y2="24.13" width="0.3048" layer="16"/>
 <wire x1="10.541" y1="24.13" x2="10.795" y2="23.876" width="0.3048" layer="16"/>
 <wire x1="10.795" y1="23.876" x2="10.795" y2="22.733" width="0.3048" layer="16"/>
+<contactref element="J4" pad="1B"/>
+<wire x1="16.51" y1="29.21" x2="17.78" y2="29.21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D9">
 <contactref element="U3" pad="29"/>
@@ -6487,6 +6496,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <via x="14.3982" y="1.905" extent="1-16" drill="0.3048"/>
 <wire x1="14.6812" y1="10.16074375" x2="14.6812" y2="2.188" width="0.1524" layer="1"/>
 <wire x1="14.3982" y1="1.905" x2="1.905" y2="1.905" width="0.1524" layer="16"/>
+<contactref element="J3" pad="1B"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="1.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D8">
 <contactref element="U3" pad="28"/>
@@ -6500,6 +6511,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2.8702" y1="2.2098" x2="1.27" y2="3.81" width="0.1524" layer="16"/>
 <wire x1="14.30094375" y1="10.10994375" x2="14.30094375" y2="2.82014375" width="0.1524" layer="1"/>
 <wire x1="13.6906" y1="2.2098" x2="2.8702" y2="2.2098" width="0.1524" layer="16"/>
+<contactref element="J3" pad="2B"/>
+<wire x1="0" y1="3.81" x2="1.27" y2="3.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="A3">
 <contactref element="U3" pad="39"/>
@@ -6510,6 +6523,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="11.938" y1="16.891" x2="11.938" y2="17.018" width="0.1524" layer="16"/>
 <wire x1="14.478" y1="17.018" x2="11.938" y2="17.018" width="0.1524" layer="16"/>
 <wire x1="14.478" y1="17.018" x2="16.51" y2="19.05" width="0.1524" layer="16"/>
+<contactref element="J4" pad="5B"/>
+<wire x1="16.51" y1="19.05" x2="17.78" y2="19.05" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="A2">
 <contactref element="U3" pad="38"/>
@@ -6517,6 +6532,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="11.6028125" y1="15.97570625" x2="11.93390625" y2="16.3068" width="0.1524" layer="1"/>
 <wire x1="16.3068" y1="16.3068" x2="16.51" y2="16.51" width="0.1524" layer="1"/>
 <wire x1="11.93390625" y1="16.3068" x2="16.3068" y2="16.3068" width="0.1524" layer="1"/>
+<contactref element="J4" pad="6B"/>
+<wire x1="16.51" y1="16.51" x2="17.78" y2="16.51" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="A1">
 <contactref element="U3" pad="37"/>
@@ -6524,6 +6541,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="12.306328125" y1="16.002" x2="14.478" y2="16.002" width="0.1524" layer="1"/>
 <contactref element="J4" pad="7"/>
 <wire x1="14.478" y1="16.002" x2="16.51" y2="13.97" width="0.1524" layer="1"/>
+<contactref element="J4" pad="7B"/>
+<wire x1="16.51" y1="13.97" x2="17.78" y2="13.97" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="A0">
 <contactref element="U3" pad="36"/>
@@ -6533,6 +6552,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="12.65783125" y1="15.6464" x2="14.351" y2="15.6464" width="0.1524" layer="1"/>
 <contactref element="J4" pad="8"/>
 <wire x1="15.494" y1="12.446" x2="16.51" y2="11.43" width="0.1524" layer="1"/>
+<contactref element="J4" pad="8B"/>
+<wire x1="16.51" y1="11.43" x2="17.78" y2="11.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D2/SDA">
 <contactref element="U3" pad="19"/>
@@ -6562,6 +6583,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="11.041" y1="3.167" x2="10.6172" y2="2.7432" width="0.1524" layer="1"/>
 <wire x1="2.548" y1="15.748" x2="2.548" y2="17.772" width="0.1524" layer="1"/>
 <wire x1="2.548" y1="17.772" x2="1.27" y2="19.05" width="0.1524" layer="1"/>
+<contactref element="J3" pad="8B"/>
+<wire x1="1.27" y1="19.05" x2="0" y2="19.05" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D3/SCL">
 <contactref element="U3" pad="18"/>
@@ -6583,9 +6606,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="12.041" y1="2.97394375" x2="11.50545625" y2="2.4384" width="0.1524" layer="1"/>
 <wire x1="7.4676" y1="2.4384" x2="6.9796" y2="2.9264" width="0.1524" layer="1"/>
 <wire x1="11.50545625" y1="2.4384" x2="7.4676" y2="2.4384" width="0.1524" layer="1"/>
-<wire x1="2.548" y1="14.732" x2="2.032" y2="14.732" width="0.1524" layer="1"/>
-<wire x1="2.032" y1="14.732" x2="1.27" y2="15.494" width="0.1524" layer="1"/>
-<wire x1="1.27" y1="15.494" x2="1.27" y2="16.51" width="0.1524" layer="1"/>
+<wire x1="2.548" y1="14.732" x2="2.167" y2="15.113" width="0.1524" layer="1"/>
+<wire x1="2.167" y1="15.113" x2="1.397" y2="15.113" width="0.1524" layer="1"/>
+<wire x1="1.397" y1="15.113" x2="1.27" y2="15.24" width="0.1524" layer="1"/>
+<wire x1="1.27" y1="15.24" x2="1.27" y2="16.51" width="0.1524" layer="1"/>
+<contactref element="J3" pad="7B"/>
+<wire x1="1.27" y1="16.51" x2="0" y2="16.51" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D4">
 <contactref element="U3" pad="25"/>
@@ -6599,6 +6625,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="9.906" y1="11.557" x2="10.50576875" y2="12.15676875" width="0.1524" layer="1"/>
 <contactref element="J3" pad="6"/>
 <wire x1="1.27" y1="13.97" x2="2.032" y2="13.97" width="0.1524" layer="16"/>
+<contactref element="J3" pad="6B"/>
+<wire x1="0" y1="13.97" x2="1.27" y2="13.97" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D5">
 <contactref element="U3" pad="31"/>
@@ -6617,6 +6645,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="10.284825" y1="11.62336875" x2="10.09719375" y2="11.811" width="0.1524" layer="16"/>
 <wire x1="8.7376" y1="11.811" x2="6.604" y2="9.6774" width="0.1524" layer="16"/>
 <wire x1="10.09719375" y1="11.811" x2="8.7376" y2="11.811" width="0.1524" layer="16"/>
+<contactref element="J3" pad="5B"/>
+<wire x1="0" y1="11.43" x2="1.27" y2="11.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D6">
 <contactref element="U3" pad="27"/>
@@ -6630,6 +6660,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="11.1795375" y1="9.4015375" x2="10.033" y2="8.255" width="0.1524" layer="16"/>
 <contactref element="J3" pad="4"/>
 <wire x1="1.27" y1="8.89" x2="1.905" y2="8.255" width="0.1524" layer="16"/>
+<contactref element="J3" pad="4B"/>
+<wire x1="0" y1="8.89" x2="1.27" y2="8.89" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D7">
 <contactref element="U3" pad="1"/>
@@ -6645,6 +6677,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="10.1854" y1="7.8994" x2="2.8194" y2="7.8994" width="0.1524" layer="16"/>
 <wire x1="2.8194" y1="7.8994" x2="1.27" y2="6.35" width="0.1524" layer="16"/>
 <wire x1="11.684" y1="9.398" x2="10.1854" y2="7.8994" width="0.1524" layer="16"/>
+<contactref element="J3" pad="3B"/>
+<wire x1="0" y1="6.35" x2="1.27" y2="6.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D10">
 <contactref element="U3" pad="30"/>
@@ -6654,6 +6688,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="12.382521875" y1="11.8618" x2="13.4112" y2="11.8618" width="0.1524" layer="1"/>
 <contactref element="J4" pad="12"/>
 <wire x1="14.986" y1="2.794" x2="16.51" y2="1.27" width="0.1524" layer="1"/>
+<contactref element="J4" pad="12B"/>
+<wire x1="16.51" y1="1.27" x2="17.78" y2="1.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="U3" pad="16"/>
@@ -6703,6 +6739,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2.286" y1="19.431" x2="2.286" y2="25.654" width="0.1524" layer="16"/>
 <contactref element="J3" pad="11"/>
 <wire x1="2.286" y1="25.654" x2="1.27" y2="26.67" width="0.1524" layer="16"/>
+<contactref element="J3" pad="11B"/>
+<wire x1="1.27" y1="26.67" x2="0" y2="26.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D-">
 <contactref element="U3" pad="3"/>
@@ -6897,9 +6935,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="5.02510625" y1="17.399" x2="4.290553125" y2="18.133553125" width="0.1524" layer="1"/>
 <wire x1="4.290553125" y1="18.133553125" x2="4.163553125" y2="18.133553125" width="0.1524" layer="1"/>
 <wire x1="5.460996875" y1="17.399" x2="5.02510625" y2="17.399" width="0.1524" layer="1"/>
-</signal>
-<signal name="N$3">
-<contactref element="J3" pad="10"/>
 </signal>
 <signal name="3.3V">
 <contactref element="R11" pad="2"/>

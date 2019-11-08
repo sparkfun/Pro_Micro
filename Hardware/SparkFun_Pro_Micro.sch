@@ -9,34 +9,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -45,8 +45,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -54,19 +54,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -28244,6 +28244,391 @@ Holes are offset 0.005", to hold pins in place during soldering.
 &lt;p&gt;Example device(s):
 &lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
+<text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="27.94" width="0.0254" layer="51"/>
+<polygon width="0.0254" layer="30">
+<vertex x="-1.27" y="-0.8255"/>
+<vertex x="0" y="-0.8255" curve="87.205638"/>
+<vertex x="0.762" y="0" curve="84.098852"/>
+<vertex x="0" y="0.8255"/>
+<vertex x="-1.27" y="0.8255"/>
+</polygon>
+<polygon width="0.0254" layer="30">
+<vertex x="-1.27" y="1.7145"/>
+<vertex x="0" y="1.7145" curve="87.205638"/>
+<vertex x="0.762" y="2.54" curve="84.098852"/>
+<vertex x="0" y="3.3655"/>
+<vertex x="-1.27" y="3.3655"/>
+</polygon>
+<polygon width="0.0254" layer="30">
+<vertex x="-1.27" y="4.2545"/>
+<vertex x="0" y="4.2545" curve="87.205638"/>
+<vertex x="0.762" y="5.08" curve="84.098852"/>
+<vertex x="0" y="5.9055"/>
+<vertex x="-1.27" y="5.9055"/>
+</polygon>
+<polygon width="0.0254" layer="30">
+<vertex x="-1.27" y="6.7945"/>
+<vertex x="0" y="6.7945" curve="87.205638"/>
+<vertex x="0.762" y="7.62" curve="84.098852"/>
+<vertex x="0" y="8.4455"/>
+<vertex x="-1.27" y="8.4455"/>
+</polygon>
+<polygon width="0.0254" layer="30">
+<vertex x="-1.27" y="9.3345"/>
+<vertex x="0" y="9.3345" curve="87.205638"/>
+<vertex x="0.762" y="10.16" curve="84.098852"/>
+<vertex x="0" y="10.9855"/>
+<vertex x="-1.27" y="10.9855"/>
+</polygon>
+<polygon width="0.0254" layer="30">
+<vertex x="-1.27" y="11.8745"/>
+<vertex x="0" y="11.8745" curve="87.205638"/>
+<vertex x="0.762" y="12.7" curve="84.098852"/>
+<vertex x="0" y="13.5255"/>
+<vertex x="-1.27" y="13.5255"/>
+</polygon>
+<pad name="7" x="0" y="15.24" drill="0.85" diameter="1.016" rot="R180"/>
+<pad name="8" x="0" y="17.78" drill="0.85" diameter="1.016" rot="R180"/>
+<rectangle x1="-0.254" y1="17.526" x2="0.254" y2="18.034" layer="51" rot="R90"/>
+<rectangle x1="-0.254" y1="14.986" x2="0.254" y2="15.494" layer="51" rot="R90"/>
+<polygon width="0.0254" layer="1">
+<vertex x="-1.27" y="16.0655"/>
+<vertex x="0.762" y="16.0655"/>
+<vertex x="0.762" y="15.24"/>
+<vertex x="0.762" y="14.4145"/>
+<vertex x="-1.27" y="14.4145"/>
+</polygon>
+<polygon width="0.0254" layer="1">
+<vertex x="-1.27" y="18.6055"/>
+<vertex x="0.762" y="18.6055"/>
+<vertex x="0.762" y="17.78"/>
+<vertex x="0.762" y="16.9545"/>
+<vertex x="-1.27" y="16.9545"/>
+</polygon>
+<polygon width="0.0254" layer="16">
+<vertex x="-1.27" y="14.4145"/>
+<vertex x="0" y="14.4145" curve="87.205638"/>
+<vertex x="0.762" y="15.24" curve="84.098852"/>
+<vertex x="0" y="16.0655"/>
+<vertex x="-1.27" y="16.0655"/>
+</polygon>
+<polygon width="0.0254" layer="16">
+<vertex x="-1.27" y="16.9545"/>
+<vertex x="0" y="16.9545" curve="87.205638"/>
+<vertex x="0.762" y="17.78" curve="84.098852"/>
+<vertex x="0" y="18.6055"/>
+<vertex x="-1.27" y="18.6055"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-1.27" y="16.0655"/>
+<vertex x="0.762" y="16.0655"/>
+<vertex x="0.762" y="15.24"/>
+<vertex x="0.762" y="14.4145"/>
+<vertex x="-1.27" y="14.4145"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-1.27" y="18.6055"/>
+<vertex x="0.762" y="18.6055"/>
+<vertex x="0.762" y="17.78"/>
+<vertex x="0.762" y="16.9545"/>
+<vertex x="-1.27" y="16.9545"/>
+</polygon>
+<polygon width="0.0254" layer="30">
+<vertex x="-1.27" y="14.4145"/>
+<vertex x="0" y="14.4145" curve="87.205638"/>
+<vertex x="0.762" y="15.24" curve="84.098852"/>
+<vertex x="0" y="16.0655"/>
+<vertex x="-1.27" y="16.0655"/>
+</polygon>
+<polygon width="0.0254" layer="30">
+<vertex x="-1.27" y="16.9545"/>
+<vertex x="0" y="16.9545" curve="87.205638"/>
+<vertex x="0.762" y="17.78" curve="84.098852"/>
+<vertex x="0" y="18.6055"/>
+<vertex x="-1.27" y="18.6055"/>
+</polygon>
+<polygon width="0.0254" layer="30">
+<vertex x="-1.27" y="19.4945"/>
+<vertex x="0" y="19.4945" curve="87.205638"/>
+<vertex x="0.762" y="20.32" curve="84.098852"/>
+<vertex x="0" y="21.1455"/>
+<vertex x="-1.27" y="21.1455"/>
+</polygon>
+<polygon width="0.0254" layer="30">
+<vertex x="-1.27" y="22.0345"/>
+<vertex x="0" y="22.0345" curve="87.205638"/>
+<vertex x="0.762" y="22.86" curve="84.098852"/>
+<vertex x="0" y="23.6855"/>
+<vertex x="-1.27" y="23.6855"/>
+</polygon>
+<polygon width="0.0254" layer="30">
+<vertex x="-1.27" y="24.5745"/>
+<vertex x="0" y="24.5745" curve="87.205638"/>
+<vertex x="0.762" y="25.4" curve="84.098852"/>
+<vertex x="0" y="26.2255"/>
+<vertex x="-1.27" y="26.2255"/>
+</polygon>
+<polygon width="0.0254" layer="30">
+<vertex x="-1.27" y="27.1145"/>
+<vertex x="0" y="27.1145" curve="87.205638"/>
+<vertex x="0.762" y="27.94" curve="84.098852"/>
+<vertex x="0" y="28.7655"/>
+<vertex x="-1.27" y="28.7655"/>
+</polygon>
+<pad name="6" x="0" y="12.7" drill="0.85" diameter="1.016" rot="R180"/>
+<rectangle x1="-0.254" y1="12.446" x2="0.254" y2="12.954" layer="51" rot="R90"/>
+<polygon width="0.0254" layer="1">
+<vertex x="-1.27" y="13.5255"/>
+<vertex x="0.762" y="13.5255"/>
+<vertex x="0.762" y="12.7"/>
+<vertex x="0.762" y="11.8745"/>
+<vertex x="-1.27" y="11.8745"/>
+</polygon>
+<polygon width="0.0254" layer="16">
+<vertex x="-1.27" y="11.8745"/>
+<vertex x="0" y="11.8745" curve="87.205638"/>
+<vertex x="0.762" y="12.7" curve="84.098852"/>
+<vertex x="0" y="13.5255"/>
+<vertex x="-1.27" y="13.5255"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-1.27" y="13.5255"/>
+<vertex x="0.762" y="13.5255"/>
+<vertex x="0.762" y="12.7"/>
+<vertex x="0.762" y="11.8745"/>
+<vertex x="-1.27" y="11.8745"/>
+</polygon>
+<pad name="10" x="0" y="22.86" drill="0.85" diameter="1.016" rot="R180"/>
+<pad name="11" x="0" y="25.4" drill="0.85" diameter="1.016" rot="R180"/>
+<rectangle x1="-0.254" y1="25.146" x2="0.254" y2="25.654" layer="51" rot="R90"/>
+<rectangle x1="-0.254" y1="22.606" x2="0.254" y2="23.114" layer="51" rot="R90"/>
+<polygon width="0.0254" layer="1">
+<vertex x="-1.27" y="23.6855"/>
+<vertex x="0.762" y="23.6855"/>
+<vertex x="0.762" y="22.86"/>
+<vertex x="0.762" y="22.0345"/>
+<vertex x="-1.27" y="22.0345"/>
+</polygon>
+<polygon width="0.0254" layer="1">
+<vertex x="-1.27" y="26.2255"/>
+<vertex x="0.762" y="26.2255"/>
+<vertex x="0.762" y="25.4"/>
+<vertex x="0.762" y="24.5745"/>
+<vertex x="-1.27" y="24.5745"/>
+</polygon>
+<polygon width="0.0254" layer="16">
+<vertex x="-1.27" y="22.0345"/>
+<vertex x="0" y="22.0345" curve="87.205638"/>
+<vertex x="0.762" y="22.86" curve="84.098852"/>
+<vertex x="0" y="23.6855"/>
+<vertex x="-1.27" y="23.6855"/>
+</polygon>
+<polygon width="0.0254" layer="16">
+<vertex x="-1.27" y="24.5745"/>
+<vertex x="0" y="24.5745" curve="87.205638"/>
+<vertex x="0.762" y="25.4" curve="84.098852"/>
+<vertex x="0" y="26.2255"/>
+<vertex x="-1.27" y="26.2255"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-1.27" y="23.6855"/>
+<vertex x="0.762" y="23.6855"/>
+<vertex x="0.762" y="22.86"/>
+<vertex x="0.762" y="22.0345"/>
+<vertex x="-1.27" y="22.0345"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-1.27" y="26.2255"/>
+<vertex x="0.762" y="26.2255"/>
+<vertex x="0.762" y="25.4"/>
+<vertex x="0.762" y="24.5745"/>
+<vertex x="-1.27" y="24.5745"/>
+</polygon>
+<pad name="9" x="0" y="20.32" drill="0.85" diameter="1.016" rot="R180"/>
+<rectangle x1="-0.254" y1="20.066" x2="0.254" y2="20.574" layer="51" rot="R90"/>
+<polygon width="0.0254" layer="1">
+<vertex x="-1.27" y="21.1455"/>
+<vertex x="0.762" y="21.1455"/>
+<vertex x="0.762" y="20.32"/>
+<vertex x="0.762" y="19.4945"/>
+<vertex x="-1.27" y="19.4945"/>
+</polygon>
+<polygon width="0.0254" layer="16">
+<vertex x="-1.27" y="19.4945"/>
+<vertex x="0" y="19.4945" curve="87.205638"/>
+<vertex x="0.762" y="20.32" curve="84.098852"/>
+<vertex x="0" y="21.1455"/>
+<vertex x="-1.27" y="21.1455"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-1.27" y="21.1455"/>
+<vertex x="0.762" y="21.1455"/>
+<vertex x="0.762" y="20.32"/>
+<vertex x="0.762" y="19.4945"/>
+<vertex x="-1.27" y="19.4945"/>
+</polygon>
+<pad name="12" x="0" y="27.94" drill="0.85" diameter="1.016" rot="R180"/>
+<rectangle x1="-0.254" y1="27.686" x2="0.254" y2="28.194" layer="51" rot="R90"/>
+<polygon width="0.0254" layer="1">
+<vertex x="-1.27" y="28.7655"/>
+<vertex x="0.762" y="28.7655"/>
+<vertex x="0.762" y="27.94"/>
+<vertex x="0.762" y="27.1145"/>
+<vertex x="-1.27" y="27.1145"/>
+</polygon>
+<polygon width="0.0254" layer="16">
+<vertex x="-1.27" y="27.1145"/>
+<vertex x="0" y="27.1145" curve="87.205638"/>
+<vertex x="0.762" y="27.94" curve="84.098852"/>
+<vertex x="0" y="28.7655"/>
+<vertex x="-1.27" y="28.7655"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-1.27" y="28.7655"/>
+<vertex x="0.762" y="28.7655"/>
+<vertex x="0.762" y="27.94"/>
+<vertex x="0.762" y="27.1145"/>
+<vertex x="-1.27" y="27.1145"/>
+</polygon>
+<pad name="5" x="0" y="10.16" drill="0.85" diameter="1.016" rot="R180"/>
+<rectangle x1="-0.254" y1="9.906" x2="0.254" y2="10.414" layer="51" rot="R90"/>
+<polygon width="0.0254" layer="1">
+<vertex x="-1.27" y="10.9855"/>
+<vertex x="0.762" y="10.9855"/>
+<vertex x="0.762" y="10.16"/>
+<vertex x="0.762" y="9.3345"/>
+<vertex x="-1.27" y="9.3345"/>
+</polygon>
+<polygon width="0.0254" layer="16">
+<vertex x="-1.27" y="9.3345"/>
+<vertex x="0" y="9.3345" curve="87.205638"/>
+<vertex x="0.762" y="10.16" curve="84.098852"/>
+<vertex x="0" y="10.9855"/>
+<vertex x="-1.27" y="10.9855"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-1.27" y="10.9855"/>
+<vertex x="0.762" y="10.9855"/>
+<vertex x="0.762" y="10.16"/>
+<vertex x="0.762" y="9.3345"/>
+<vertex x="-1.27" y="9.3345"/>
+</polygon>
+<pad name="3" x="0" y="5.08" drill="0.85" diameter="1.016" rot="R180"/>
+<pad name="4" x="0" y="7.62" drill="0.85" diameter="1.016" rot="R180"/>
+<rectangle x1="-0.254" y1="7.366" x2="0.254" y2="7.874" layer="51" rot="R90"/>
+<rectangle x1="-0.254" y1="4.826" x2="0.254" y2="5.334" layer="51" rot="R90"/>
+<polygon width="0.0254" layer="1">
+<vertex x="-1.27" y="5.9055"/>
+<vertex x="0.762" y="5.9055"/>
+<vertex x="0.762" y="5.08"/>
+<vertex x="0.762" y="4.2545"/>
+<vertex x="-1.27" y="4.2545"/>
+</polygon>
+<polygon width="0.0254" layer="1">
+<vertex x="-1.27" y="8.4455"/>
+<vertex x="0.762" y="8.4455"/>
+<vertex x="0.762" y="7.62"/>
+<vertex x="0.762" y="6.7945"/>
+<vertex x="-1.27" y="6.7945"/>
+</polygon>
+<polygon width="0.0254" layer="16">
+<vertex x="-1.27" y="4.2545"/>
+<vertex x="0" y="4.2545" curve="87.205638"/>
+<vertex x="0.762" y="5.08" curve="84.098852"/>
+<vertex x="0" y="5.9055"/>
+<vertex x="-1.27" y="5.9055"/>
+</polygon>
+<polygon width="0.0254" layer="16">
+<vertex x="-1.27" y="6.7945"/>
+<vertex x="0" y="6.7945" curve="87.205638"/>
+<vertex x="0.762" y="7.62" curve="84.098852"/>
+<vertex x="0" y="8.4455"/>
+<vertex x="-1.27" y="8.4455"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-1.27" y="5.9055"/>
+<vertex x="0.762" y="5.9055"/>
+<vertex x="0.762" y="5.08"/>
+<vertex x="0.762" y="4.2545"/>
+<vertex x="-1.27" y="4.2545"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-1.27" y="8.4455"/>
+<vertex x="0.762" y="8.4455"/>
+<vertex x="0.762" y="7.62"/>
+<vertex x="0.762" y="6.7945"/>
+<vertex x="-1.27" y="6.7945"/>
+</polygon>
+<pad name="2" x="0" y="2.54" drill="0.85" diameter="1.016" rot="R180"/>
+<rectangle x1="-0.254" y1="2.286" x2="0.254" y2="2.794" layer="51" rot="R90"/>
+<polygon width="0.0254" layer="1">
+<vertex x="-1.27" y="3.3655"/>
+<vertex x="0.762" y="3.3655"/>
+<vertex x="0.762" y="2.54"/>
+<vertex x="0.762" y="1.7145"/>
+<vertex x="-1.27" y="1.7145"/>
+</polygon>
+<polygon width="0.0254" layer="16">
+<vertex x="-1.27" y="1.7145"/>
+<vertex x="0" y="1.7145" curve="87.205638"/>
+<vertex x="0.762" y="2.54" curve="84.098852"/>
+<vertex x="0" y="3.3655"/>
+<vertex x="-1.27" y="3.3655"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-1.27" y="3.3655"/>
+<vertex x="0.762" y="3.3655"/>
+<vertex x="0.762" y="2.54"/>
+<vertex x="0.762" y="1.7145"/>
+<vertex x="-1.27" y="1.7145"/>
+</polygon>
+<pad name="1" x="0" y="0" drill="0.85" diameter="1.016" rot="R180"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51" rot="R90"/>
+<polygon width="0.0254" layer="1">
+<vertex x="-1.27" y="0.8255"/>
+<vertex x="0.762" y="0.8255"/>
+<vertex x="0.762" y="0"/>
+<vertex x="0.762" y="-0.8255"/>
+<vertex x="-1.27" y="-0.8255"/>
+</polygon>
+<polygon width="0.0254" layer="16">
+<vertex x="-1.27" y="-0.8255"/>
+<vertex x="0" y="-0.8255" curve="87.205638"/>
+<vertex x="0.762" y="0" curve="84.098852"/>
+<vertex x="0" y="0.8255"/>
+<vertex x="-1.27" y="0.8255"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-1.27" y="0.8255"/>
+<vertex x="0.762" y="0.8255"/>
+<vertex x="0.762" y="0"/>
+<vertex x="0.762" y="-0.8255"/>
+<vertex x="-1.27" y="-0.8255"/>
+</polygon>
+<pad name="12B" x="-1.27" y="27.94" drill="0.85"/>
+<pad name="11B" x="-1.27" y="25.4" drill="0.85"/>
+<pad name="10B" x="-1.27" y="22.86" drill="0.85"/>
+<pad name="9B" x="-1.27" y="20.32" drill="0.85"/>
+<pad name="8B" x="-1.27" y="17.78" drill="0.85"/>
+<pad name="7B" x="-1.27" y="15.24" drill="0.85"/>
+<pad name="6B" x="-1.27" y="12.7" drill="0.85"/>
+<pad name="5B" x="-1.27" y="10.16" drill="0.85"/>
+<pad name="4B" x="-1.27" y="7.62" drill="0.85"/>
+<pad name="3B" x="-1.27" y="5.08" drill="0.85"/>
+<pad name="2B" x="-1.27" y="2.54" drill="0.85"/>
+<pad name="1B" x="-1.27" y="0" drill="0.85"/>
+</package>
+<package name="1X12_CASTELLATED_TEST">
+<description>&lt;h3&gt;Plated Through Hole - 4 Pin No Silk Outline&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <pad name="1" x="0" y="0" drill="1" diameter="1.524" rot="R180"/>
 <pad name="2" x="0" y="2.54" drill="1" diameter="1.524" rot="R180"/>
 <pad name="3" x="0" y="5.08" drill="0.8" diameter="1.524" rot="R180"/>
@@ -28896,7 +29281,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <technology name=""/>
 </technologies>
 </device>
-<device name="CASTLE" package="1X12_CASTELLATED">
+<device name="CASTLE_TEST" package="1X12_CASTELLATED_TEST">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -28910,6 +29295,25 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CASTLE" package="1X12_CASTELLATED">
+<connects>
+<connect gate="G$1" pin="1" pad="1 1B"/>
+<connect gate="G$1" pin="10" pad="10 10B"/>
+<connect gate="G$1" pin="11" pad="11 11B"/>
+<connect gate="G$1" pin="12" pad="12 12B"/>
+<connect gate="G$1" pin="2" pad="2 2B"/>
+<connect gate="G$1" pin="3" pad="3 3B"/>
+<connect gate="G$1" pin="4" pad="4 4B"/>
+<connect gate="G$1" pin="5" pad="5 5B"/>
+<connect gate="G$1" pin="6" pad="6 6B"/>
+<connect gate="G$1" pin="7" pad="7 7B"/>
+<connect gate="G$1" pin="8" pad="8 8B"/>
+<connect gate="G$1" pin="9" pad="9 9B"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -29376,6 +29780,11 @@ I2C Bus is still 3.3V</text>
 <wire x1="43.18" y1="27.94" x2="45.72" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="27.94" x2="45.72" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="1" pin="GND"/>
+</segment>
+<segment>
+<wire x1="38.1" y1="91.44" x2="40.64" y2="91.44" width="0.1524" layer="91"/>
+<label x="40.64" y="91.44" size="1.27" layer="95" xref="yes"/>
+<pinref part="J3" gate="G$1" pin="10"/>
 </segment>
 </net>
 <net name="AREF" class="0">
@@ -29888,13 +30297,6 @@ I2C Bus is still 3.3V</text>
 <wire x1="127" y1="160.02" x2="127" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="2"/>
 <label x="127" y="160.02" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<wire x1="38.1" y1="91.44" x2="40.64" y2="91.44" width="0.1524" layer="91"/>
-<label x="40.64" y="91.44" size="1.27" layer="95" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="10"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
