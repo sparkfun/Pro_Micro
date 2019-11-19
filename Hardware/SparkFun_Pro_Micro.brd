@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -6059,10 +6059,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="6.858" y="2.921" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="8.89" y="16.51" smashed="yes" rot="MR90"/>
-<element name="Y2" library="SparkFun-Clocks" package="CRYSTAL-SMD-2.0X1.6MM" value="32MHz" x="5.08" y="7.62" smashed="yes">
+<element name="Y2" library="SparkFun-Clocks" package="CRYSTAL-SMD-2.0X1.6MM" value="16MHz" x="5.08" y="7.62" smashed="yes">
 <attribute name="NAME" x="5.079996875" y="8.719996875" size="0.6096" layer="25" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="XTAL-13459" x="5.08" y="7.62" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" x="5.079996875" y="6.52" size="0.6096" layer="27" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="XTAL-14681" x="5.08" y="7.62" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" value="16MHz" x="5.079996875" y="6.52" size="0.6096" layer="27" ratio="20" align="top-center"/>
 </element>
 <element name="J2" library="SparkFun-Connectors" package="JST04_1MM_RA" value="Qwiic" x="10.541" y="4.926" smashed="yes">
 <attribute name="NAME" x="9.144" y="2.767" size="0.6096" layer="25" font="vector" ratio="20"/>
