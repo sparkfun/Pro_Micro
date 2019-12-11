@@ -29546,8 +29546,8 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="Y2" library="SparkFun-Clocks" deviceset="CRYSTAL-16MHZ" device="SMD-2X1.6" value="16MHz"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="Qwiic"/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
-<part name="R8" library="SparkFun-Resistors" deviceset="22OHM" device="-0402T-1/16W-1%" value="22"/>
-<part name="R9" library="SparkFun-Resistors" deviceset="22OHM" device="-0402T-1/16W-1%" value="22"/>
+<part name="R8" library="SparkFun-Resistors" deviceset="22OHM" device="-0402-1/10W-1%" value="22"/>
+<part name="R9" library="SparkFun-Resistors" deviceset="22OHM" device="-0402-1/10W-1%" value="22"/>
 <part name="GND16" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_4MM"/>
 <part name="J3" library="Castellated" deviceset="CONN_12" device="CASTLE"/>
