@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.5.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -41,7 +41,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="13" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -291,8 +291,14 @@
 <wire x1="3.937" y1="13.97" x2="8.89" y2="9.017" width="0.0508" layer="49"/>
 <wire x1="8.89" y1="9.017" x2="13.843" y2="13.97" width="0.0508" layer="49"/>
 <wire x1="13.843" y1="13.97" x2="8.89" y2="18.923" width="0.0508" layer="49"/>
-<text x="51.435" y="-9.144" size="1.778" layer="51" font="vector" ratio="15">N Seidle</text>
+<text x="51.435" y="-23.114" size="1.778" layer="51" font="vector" ratio="15">N Seidle</text>
 <text x="26.67" y="36.83" size="2.54" layer="51" font="vector" ratio="15">0.8mm PCB</text>
+<dimension x1="0" y1="0" x2="0" y2="33.02" x3="-3.81" y3="16.51" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="1.27" y1="29.21" x2="0" y2="29.21" x3="0.635" y3="36.83" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="0" y1="33.02" x2="8.89" y2="33.02" x3="4.445" y3="41.91" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="10.541" y1="4.926" x2="0" y2="4.926" x3="5.2705" y3="-3.77126875" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="17.78" y2="0" x3="8.89" y3="-8.89" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<text x="-2.54" y="-13.97" size="1.778" layer="47" font="vector" ratio="15">Units in Inches</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -6188,9 +6194,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </element>
 <element name="U$65" library="buzzard_labels (10)" package="5V1" value="" x="14.732" y="20.066" smashed="yes" rot="R90"/>
 <element name="U$15" library="buzzard_labels (10)" package="5V1" value="" x="16.383" y="21.59" smashed="yes" rot="MR0"/>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="20.32" y="-8.89" smashed="yes">
-<attribute name="DESIGNER" value="" x="20.32" y="-8.89" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="REV" value="" x="20.32" y="-8.89" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="20.32" y="-22.86" smashed="yes">
+<attribute name="DESIGNER" value="" x="20.32" y="-22.86" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="REV" value="" x="20.32" y="-22.86" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="LOGO5" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="SPECIAL_INSTRUCTIONS-ORDERING" x="22.86" y="50.8" smashed="yes"/>
 </elements>
