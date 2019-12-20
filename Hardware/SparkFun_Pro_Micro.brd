@@ -299,6 +299,7 @@
 <dimension x1="10.541" y1="4.926" x2="0" y2="4.926" x3="5.2705" y3="-3.77126875" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="0" y1="0" x2="17.78" y2="0" x3="8.89" y3="-8.89" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <text x="-2.54" y="-13.97" size="1.778" layer="47" font="vector" ratio="15">Units in Inches</text>
+<dimension x1="0" y1="33.02" x2="0" y2="34.29" x3="13.208" y3="33.655" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
