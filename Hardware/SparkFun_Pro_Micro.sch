@@ -3,7 +3,7 @@
 <eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -24363,50 +24363,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="22OHM" prefix="R">
-<description>&lt;h3&gt;22Ω resistor&lt;/h3&gt;
-&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0402-1/10W-1%" package="0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-12427"/>
-<attribute name="VALUE" value="22"/>
-</technology>
-</technologies>
-</device>
-<device name="-0603-1/10W-1%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-08698"/>
-<attribute name="VALUE" value="22"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402T-1/16W-1%" package="0402-TIGHT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-14340" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="2.2KOHM" prefix="R">
 <description>&lt;h3&gt;2.2kΩ resistor&lt;/h3&gt;
 &lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
@@ -24434,6 +24390,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="RES-14341" constant="no"/>
+<attribute name="VALUE" value="2.2K" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -26387,15 +26344,16 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="SMT-JUMPER_3_1-NC_TRACE_SILK">
-<wire x1="1.27" y1="-1.016" x2="-1.27" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="1.016" x2="1.7272" y2="0.5588" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.7272" y1="0.5588" x2="-1.27" y2="1.016" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.7272" y1="-0.5588" x2="-1.27" y2="-1.016" width="0.2032" layer="21" curve="90"/>
-<wire x1="1.27" y1="-1.016" x2="1.7272" y2="-0.5588" width="0.2032" layer="21" curve="90"/>
-<wire x1="1.7272" y1="-0.5588" x2="1.7272" y2="0.5588" width="0.2032" layer="21"/>
-<wire x1="-1.7272" y1="-0.5588" x2="-1.7272" y2="0.5588" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="1.016" x2="1.27" y2="1.016" width="0.2032" layer="21"/>
+<package name="SMT-JUMPER_3_1-NC_TRACE_SILK" urn="urn:adsk.eagle:footprint:39266/1">
+<wire x1="1.27" y1="-1.016" x2="-1.27" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.016" x2="1.7272" y2="0.5588" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.7272" y1="0.5588" x2="-1.27" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.7272" y1="-0.5588" x2="-1.27" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.27" y1="-1.016" x2="1.7272" y2="-0.5588" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.7272" y1="-0.5588" x2="1.7272" y2="0.5588" width="0.1524" layer="21"/>
+<wire x1="-1.7272" y1="-0.5588" x2="-1.7272" y2="0.5588" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.016" x2="1.27" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.016" y2="0" width="0.254" layer="1"/>
 <smd name="1" x="-1.016" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
 <smd name="2" x="0" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
 <smd name="3" x="1.016" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
@@ -26407,23 +26365,34 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.6985" y="-0.127"/>
 <vertex x="0.3175" y="-0.127"/>
 </polygon>
-<rectangle x1="0.3048" y1="-0.127" x2="0.7112" y2="0.127" layer="1"/>
 </package>
-<package name="SMT-JUMPER_3_1-NC_TRACE_NO-SILK">
+<package name="SMT-JUMPER_3_1-NC_TRACE_NO-SILK" urn="urn:adsk.eagle:footprint:39267/1">
 <smd name="1" x="-1.016" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
 <smd name="2" x="0" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
 <smd name="3" x="1.016" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
 <text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="0" y1="0" x2="1.016" y2="0" width="0.254" layer="1"/>
 <polygon width="0.127" layer="29">
 <vertex x="0.3175" y="0.127"/>
 <vertex x="0.6985" y="0.127"/>
 <vertex x="0.6985" y="-0.127"/>
 <vertex x="0.3175" y="-0.127"/>
 </polygon>
-<rectangle x1="0.3048" y1="-0.127" x2="0.7112" y2="0.127" layer="1"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="SMT-JUMPER_3_1-NC_TRACE_SILK" urn="urn:adsk.eagle:package:39288/1" type="box">
+<packageinstances>
+<packageinstance name="SMT-JUMPER_3_1-NC_TRACE_SILK"/>
+</packageinstances>
+</package3d>
+<package3d name="SMT-JUMPER_3_1-NC_TRACE_NO-SILK" urn="urn:adsk.eagle:package:39287/1" type="box">
+<packageinstances>
+<packageinstance name="SMT-JUMPER_3_1-NC_TRACE_NO-SILK"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="SMT-JUMPER_3_1-NC_TRACE">
 <wire x1="-0.635" y1="-1.397" x2="0.635" y2="-1.397" width="1.27" layer="94" curve="180" cap="flat"/>
@@ -26434,13 +26403,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="94"/>
 <wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <text x="2.54" y="0.381" size="1.778" layer="95" font="vector">&gt;NAME</text>
 <text x="2.54" y="-0.381" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
 <rectangle x1="-1.27" y1="-0.635" x2="1.27" y2="0.635" layer="94"/>
 <pin name="3" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -26463,6 +26432,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39288/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -26473,6 +26445,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39287/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -27632,6 +27607,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="4" y1="-6" x2="-4" y2="-6" width="0.3048" layer="20"/>
 <wire x1="-4" y1="-6" x2="-4" y2="-10.16" width="0.3048" layer="20"/>
 </package>
+<package name="USB-SOLDER-PADS">
+<smd name="D-" x="0" y="0.889" dx="3" dy="0.9" layer="1" cream="no"/>
+<smd name="VBUS" x="0" y="2.667" dx="3" dy="0.9" layer="1" cream="no"/>
+<smd name="D+" x="0" y="-0.889" dx="3" dy="0.9" layer="1" cream="no"/>
+<smd name="GND" x="0" y="-2.667" dx="3" dy="0.9" layer="1" cream="no"/>
+</package>
 <package name="JST04_1MM_VERT">
 <description>&lt;h3&gt;Vertical Qwiic Connector&lt;/h3&gt;
 
@@ -27649,30 +27630,24 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;/ul&gt;</description>
 <text x="0.016" y="4.56633125" size="0.6096" layer="25">&gt;NAME</text>
 <text x="0.016" y="-1.29633125" size="0.6096" layer="27">&gt;VALUE</text>
-<smd name="1" x="0.3" y="0.775" dx="0.6" dy="1.55" layer="1"/>
-<smd name="2" x="1.3" y="0.775" dx="0.6" dy="1.55" layer="1"/>
-<smd name="3" x="2.3" y="0.775" dx="0.6" dy="1.55" layer="1"/>
-<smd name="4" x="3.3" y="0.775" dx="0.6" dy="1.55" layer="1"/>
-<smd name="NC1" x="-1" y="3.2" dx="1.2" dy="2" layer="1"/>
-<smd name="NC2" x="4.6" y="3.2" dx="1.2" dy="2" layer="1"/>
-<wire x1="3.69" y1="3.87" x2="-0.1" y2="3.87" width="0.2032" layer="21"/>
-<wire x1="-1.44" y1="1.33" x2="-1.44" y2="0.68" width="0.2032" layer="21"/>
-<wire x1="-1.44" y1="0.68" x2="-0.68" y2="0.68" width="0.2032" layer="21"/>
-<wire x1="5.05" y1="1.35" x2="5.05" y2="0.66" width="0.2032" layer="21"/>
-<wire x1="5.05" y1="0.66" x2="4.32" y2="0.66" width="0.2032" layer="21"/>
-<circle x="-0.17" y="-0.43" radius="0.2032" width="0" layer="21"/>
-<wire x1="-1.143" y1="3.556" x2="-1.524" y2="3.556" width="0.1" layer="51"/>
-<wire x1="-1.524" y1="3.556" x2="-1.524" y2="3.175" width="0.1" layer="51"/>
-<wire x1="-1.524" y1="3.175" x2="-1.143" y2="3.175" width="0.1" layer="51"/>
-<wire x1="4.723" y1="3.154" x2="5.104" y2="3.154" width="0.1" layer="51"/>
-<wire x1="5.104" y1="3.154" x2="5.104" y2="3.535" width="0.1" layer="51"/>
-<wire x1="5.104" y1="3.535" x2="4.723" y2="3.535" width="0.1" layer="51"/>
-</package>
-<package name="USB-SOLDER-PADS">
-<smd name="D-" x="0" y="0.889" dx="3" dy="0.9" layer="1" cream="no"/>
-<smd name="VBUS" x="0" y="2.667" dx="3" dy="0.9" layer="1" cream="no"/>
-<smd name="D+" x="0" y="-0.889" dx="3" dy="0.9" layer="1" cream="no"/>
-<smd name="GND" x="0" y="-2.667" dx="3" dy="0.9" layer="1" cream="no"/>
+<smd name="1" x="-1.478" y="0.775" dx="0.6" dy="1.55" layer="1"/>
+<smd name="2" x="-0.478" y="0.775" dx="0.6" dy="1.55" layer="1"/>
+<smd name="3" x="0.522" y="0.775" dx="0.6" dy="1.55" layer="1"/>
+<smd name="4" x="1.522" y="0.775" dx="0.6" dy="1.55" layer="1"/>
+<smd name="NC1" x="-2.778" y="3.2" dx="1.2" dy="2" layer="1"/>
+<smd name="NC2" x="2.822" y="3.2" dx="1.2" dy="2" layer="1"/>
+<wire x1="1.912" y1="3.87" x2="-1.878" y2="3.87" width="0.2032" layer="21"/>
+<wire x1="-3.218" y1="1.33" x2="-3.218" y2="0.68" width="0.2032" layer="21"/>
+<wire x1="-3.218" y1="0.68" x2="-2.458" y2="0.68" width="0.2032" layer="21"/>
+<wire x1="3.272" y1="1.35" x2="3.272" y2="0.66" width="0.2032" layer="21"/>
+<wire x1="3.272" y1="0.66" x2="2.542" y2="0.66" width="0.2032" layer="21"/>
+<circle x="-1.948" y="-0.43" radius="0.2032" width="0" layer="21"/>
+<wire x1="-2.921" y1="3.556" x2="-3.302" y2="3.556" width="0.1" layer="51"/>
+<wire x1="-3.302" y1="3.556" x2="-3.302" y2="3.175" width="0.1" layer="51"/>
+<wire x1="-3.302" y1="3.175" x2="-2.921" y2="3.175" width="0.1" layer="51"/>
+<wire x1="2.945" y1="3.154" x2="3.326" y2="3.154" width="0.1" layer="51"/>
+<wire x1="3.326" y1="3.154" x2="3.326" y2="3.535" width="0.1" layer="51"/>
+<wire x1="3.326" y1="3.535" x2="2.945" y2="3.535" width="0.1" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -29503,7 +29478,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="R6" library="SparkFun-Resistors" deviceset="1KOHM" device="-0402T-1/16W-1%" value="1k"/>
 <part name="D3" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="GREEN"/>
 <part name="U$3" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="MINI"/>
-<part name="U3" library="SparkFun-IC-Microcontroller" deviceset="ATMEGA32U4" device="1:1" value="ATmega32U4"/>
+<part name="U3" library="SparkFun-IC-Microcontroller" deviceset="ATMEGA32U4" device="1:1-LESS_PASTE" value="32U4"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="22PF" device="-0402T-16V-10%" value="22pF"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="22PF" device="-0402T-16V-10%" value="22pF"/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="1.0uF"/>
@@ -29544,10 +29519,10 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="Y2" library="SparkFun-Clocks" deviceset="CRYSTAL-16MHZ" device="SMD-2X1.6" value="16MHz"/>
-<part name="J2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="Qwiic"/>
+<part name="J2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RIGHT_ANGLE"/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
-<part name="R8" library="SparkFun-Resistors" deviceset="22OHM" device="-0402-1/10W-1%" value="22"/>
-<part name="R9" library="SparkFun-Resistors" deviceset="22OHM" device="-0402-1/10W-1%" value="22"/>
+<part name="R8" library="SparkFun-Resistors" deviceset="5.1KOHM" device="-0402T-1/16W-1%" value="5.1k"/>
+<part name="R9" library="SparkFun-Resistors" deviceset="5.1KOHM" device="-0402T-1/16W-1%" value="5.1k"/>
 <part name="GND16" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_4MM"/>
 <part name="J3" library="Castellated" deviceset="CONN_12" device="CASTLE"/>
@@ -29565,7 +29540,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="SUPPLY16" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="JP14" library="SparkFun-Connectors" deviceset="USB_SOLDER_PADS" device=""/>
 <part name="LOGO4" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH"/>
-<part name="JP4" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_SILK" value=""/>
+<part name="JP4" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39288/1" value="JUMPER-SMT_3_1-NC_TRACE_SILK"/>
 <part name="J5" library="USBC" deviceset="USB_C" device="5"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="LOGO5" library="SparkFun-Aesthetics" deviceset="SPECIAL_INSTRUCTIONS" device="-ORDERING"/>
@@ -29757,11 +29732,11 @@ I2C Bus is still 3.3V</text>
 <instance part="SUPPLY9" gate="G$1" x="116.84" y="83.82" smashed="yes">
 <attribute name="VALUE" x="116.84" y="86.614" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="R8" gate="G$1" x="124.46" y="58.42" smashed="yes">
+<instance part="R8" gate="R1" x="124.46" y="58.42" smashed="yes">
 <attribute name="NAME" x="119.888" y="58.674" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="128.524" y="58.674" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
-<instance part="R9" gate="G$1" x="124.46" y="60.96" smashed="yes">
+<instance part="R9" gate="R1" x="124.46" y="60.96" smashed="yes">
 <attribute name="NAME" x="119.888" y="61.468" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="128.524" y="61.214" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
@@ -30325,7 +30300,7 @@ I2C Bus is still 3.3V</text>
 <segment>
 <wire x1="129.54" y1="58.42" x2="132.08" y2="58.42" width="0.1524" layer="91"/>
 <label x="132.08" y="58.42" size="1.27" layer="95" xref="yes"/>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R8" gate="R1" pin="2"/>
 </segment>
 </net>
 <net name="D+" class="0">
@@ -30337,7 +30312,7 @@ I2C Bus is still 3.3V</text>
 <segment>
 <wire x1="129.54" y1="60.96" x2="132.08" y2="60.96" width="0.1524" layer="91"/>
 <label x="132.08" y="60.96" size="1.27" layer="95" xref="yes"/>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R9" gate="R1" pin="2"/>
 </segment>
 </net>
 <net name="RXLED" class="0">
@@ -30359,7 +30334,7 @@ I2C Bus is still 3.3V</text>
 <net name="D-_HV" class="0">
 <segment>
 <wire x1="106.68" y1="58.42" x2="114.3" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R8" gate="R1" pin="1"/>
 <pinref part="JP14" gate="JP1" pin="2"/>
 <wire x1="114.3" y1="58.42" x2="119.38" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="78.74" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
@@ -30371,7 +30346,7 @@ I2C Bus is still 3.3V</text>
 <net name="DP_HV" class="0">
 <segment>
 <wire x1="106.68" y1="60.96" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R9" gate="R1" pin="1"/>
 <pinref part="JP14" gate="JP1" pin="3"/>
 <wire x1="111.76" y1="60.96" x2="119.38" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="76.2" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
@@ -30508,6 +30483,16 @@ I2C Bus is still 3.3V</text>
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
