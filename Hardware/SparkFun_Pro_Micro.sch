@@ -23979,6 +23979,50 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="22OHM" prefix="R">
+<description>&lt;h3&gt;22Ω resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0402-1/10W-1%" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12427"/>
+<attribute name="VALUE" value="22"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-1/10W-1%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-08698"/>
+<attribute name="VALUE" value="22"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402T-1/16W-1%" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12427" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="5.1KOHM" prefix="R" uservalue="yes">
 <gates>
 <gate name="R1" symbol="RESISTOR" x="0" y="0"/>
@@ -24862,6 +24906,18 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technology name="">
 <attribute name="PROD_ID" value="CAP-14259"/>
 <attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402T-6.3V-20%" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-14848" constant="no"/>
+<attribute name="VALUE" value="10uF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -29521,8 +29577,8 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="Y2" library="SparkFun-Clocks" deviceset="CRYSTAL-16MHZ" device="SMD-2X1.6" value="16MHz"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RIGHT_ANGLE"/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
-<part name="R8" library="SparkFun-Resistors" deviceset="5.1KOHM" device="-0402T-1/16W-1%" value="5.1k"/>
-<part name="R9" library="SparkFun-Resistors" deviceset="5.1KOHM" device="-0402T-1/16W-1%" value="5.1k"/>
+<part name="R8" library="SparkFun-Resistors" deviceset="22OHM" device="-0402T-1/16W-1%" value="22OHM-0402T-1/16W-1%"/>
+<part name="R9" library="SparkFun-Resistors" deviceset="22OHM" device="-0402T-1/16W-1%" value="22OHM-0402T-1/16W-1%"/>
 <part name="GND16" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_4MM"/>
 <part name="J3" library="Castellated" deviceset="CONN_12" device="CASTLE"/>
@@ -29732,13 +29788,11 @@ I2C Bus is still 3.3V</text>
 <instance part="SUPPLY9" gate="G$1" x="116.84" y="83.82" smashed="yes">
 <attribute name="VALUE" x="116.84" y="86.614" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="R8" gate="R1" x="124.46" y="58.42" smashed="yes">
+<instance part="R8" gate="G$1" x="124.46" y="58.42" smashed="yes">
 <attribute name="NAME" x="119.888" y="58.674" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="128.524" y="58.674" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
-<instance part="R9" gate="R1" x="124.46" y="60.96" smashed="yes">
+<instance part="R9" gate="G$1" x="124.46" y="60.96" smashed="yes">
 <attribute name="NAME" x="119.888" y="61.468" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="128.524" y="61.214" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
 <instance part="GND16" gate="1" x="45.72" y="22.86" smashed="yes">
 <attribute name="VALUE" x="45.72" y="22.606" size="1.778" layer="96" align="top-center"/>
@@ -30300,7 +30354,7 @@ I2C Bus is still 3.3V</text>
 <segment>
 <wire x1="129.54" y1="58.42" x2="132.08" y2="58.42" width="0.1524" layer="91"/>
 <label x="132.08" y="58.42" size="1.27" layer="95" xref="yes"/>
-<pinref part="R8" gate="R1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="D+" class="0">
@@ -30312,7 +30366,7 @@ I2C Bus is still 3.3V</text>
 <segment>
 <wire x1="129.54" y1="60.96" x2="132.08" y2="60.96" width="0.1524" layer="91"/>
 <label x="132.08" y="60.96" size="1.27" layer="95" xref="yes"/>
-<pinref part="R9" gate="R1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="RXLED" class="0">
@@ -30334,7 +30388,7 @@ I2C Bus is still 3.3V</text>
 <net name="D-_HV" class="0">
 <segment>
 <wire x1="106.68" y1="58.42" x2="114.3" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="R8" gate="R1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="JP14" gate="JP1" pin="2"/>
 <wire x1="114.3" y1="58.42" x2="119.38" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="78.74" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
@@ -30346,7 +30400,7 @@ I2C Bus is still 3.3V</text>
 <net name="DP_HV" class="0">
 <segment>
 <wire x1="106.68" y1="60.96" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="R9" gate="R1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="JP14" gate="JP1" pin="3"/>
 <wire x1="111.76" y1="60.96" x2="119.38" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="76.2" x2="111.76" y2="76.2" width="0.1524" layer="91"/>

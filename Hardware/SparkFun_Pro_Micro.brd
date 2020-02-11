@@ -6137,15 +6137,13 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-13694" x="10.541" y="4.926" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="8.89" y="1.624" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
-<element name="R8" library="SparkFun-Resistors" package="0402-TIGHT" value="5.1k" x="4.826" y="20.193" smashed="yes" rot="R225">
+<element name="R8" library="SparkFun-Resistors" package="0402-TIGHT" value="22OHM-0402T-1/16W-1%" x="4.826" y="20.193" smashed="yes" rot="R225">
 <attribute name="NAME" x="5.223396875" y="19.79560625" size="0.6096" layer="25" font="vector" ratio="20" rot="R225" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-14340" x="4.826" y="20.193" size="1.778" layer="27" font="vector" ratio="15" rot="R225" display="off"/>
-<attribute name="VALUE" value="5.1k" x="4.42860625" y="20.590396875" size="0.6096" layer="27" font="vector" ratio="20" rot="R225" align="top-center"/>
+<attribute name="PROD_ID" value="RES-12427" x="4.826" y="20.193" size="1.778" layer="27" font="vector" ratio="15" rot="R225" display="off"/>
 </element>
-<element name="R9" library="SparkFun-Resistors" package="0402-TIGHT" value="5.1k" x="3.429" y="18.796" smashed="yes" rot="R45">
+<element name="R9" library="SparkFun-Resistors" package="0402-TIGHT" value="22OHM-0402T-1/16W-1%" x="3.429" y="18.796" smashed="yes" rot="R45">
 <attribute name="NAME" x="3.031603125" y="19.19339375" size="0.6096" layer="25" font="vector" ratio="20" rot="R45" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-14340" x="3.429" y="18.796" size="1.778" layer="27" font="vector" ratio="15" rot="R45" display="off"/>
-<attribute name="VALUE" value="5.1k" x="3.82639375" y="18.398603125" size="0.6096" layer="27" font="vector" ratio="20" rot="R45" align="top-center"/>
+<attribute name="PROD_ID" value="RES-12427" x="3.429" y="18.796" size="1.778" layer="27" font="vector" ratio="15" rot="R45" display="off"/>
 </element>
 <element name="U$13" library="buzzard_labels (13)" package="45" value="" x="3.048" y="15.367" smashed="yes" rot="R270"/>
 <element name="U$18" library="buzzard_labels (13)" package="TX2" value="" x="3.048" y="31.115" smashed="yes" rot="R270"/>
