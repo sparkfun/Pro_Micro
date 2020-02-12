@@ -6,8 +6,8 @@
    code in your future endeavors! Reuse and share.
 
    This is very simplistic code that allows you to send a 'z' with
-   a momentary pushbutton. 
- */
+   a momentary pushbutton.
+*/
 
 #include <Keyboard.h>
 int buttonPin = 9;  // Set a button to any pin
@@ -16,6 +16,8 @@ void setup()
 {
   pinMode(buttonPin, INPUT);  // Set the button as an input
   digitalWrite(buttonPin, HIGH);  // Pull the button high
+
+  Keyboard.begin(); //Init keyboard emulation
 }
 
 void loop()
