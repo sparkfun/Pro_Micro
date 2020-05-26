@@ -292,7 +292,9 @@
 <wire x1="8.89" y1="9.017" x2="13.843" y2="13.97" width="0.0508" layer="49"/>
 <wire x1="13.843" y1="13.97" x2="8.89" y2="18.923" width="0.0508" layer="49"/>
 <text x="51.435" y="-23.114" size="1.778" layer="51" font="vector" ratio="15">N Seidle</text>
-<text x="26.67" y="36.83" size="2.54" layer="51" font="vector" ratio="15">0.8mm PCB</text>
+<text x="26.67" y="30.48" size="2.54" layer="51" font="vector" ratio="15">0.8mm PCB
+Matte Black
+ENIG Finish</text>
 <dimension x1="0" y1="0" x2="0" y2="33.02" x3="-3.81" y3="16.51" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="1.27" y1="29.21" x2="0" y2="29.21" x3="0.635" y3="36.83" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="0" y1="33.02" x2="8.89" y2="33.02" x3="4.445" y3="41.91" textsize="1.778" textratio="15" layer="47" unit="inch"/>
@@ -7576,6 +7578,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
