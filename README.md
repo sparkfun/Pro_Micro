@@ -26,7 +26,7 @@ Repository Contents
 Documentation
 --------------
 * **Hookup Guide** 
-  * **[Pro Micro & Fio V3](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide)** - Basic hookup guide for the Pro Micro (ATmega32U4) 3.3V and 5V versions and as well as the Fio V3.
+  * **[Pro Micro & Fio V3](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide)** - Basic hookup guide for the Pro Micro (ATmega32U4) 3.3V and 5V versions as well as the Fio V3.
   * **[Qwiic Pro Micro USB-C](https://learn.sparkfun.com/tutorials/qwiic-pro-micro-usb-c-atmega32u4-hookup-guide)** - Basic hookup guide for the Qwiic Pro Micro.
 * **[SparkFun Arduino Board Addon](https://github.com/sparkfun/Arduino_Boards/)** - Arduino board addon for Qwiic Pro Micro.
 * **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** - Graphical datasheets for various SparkFun products.
