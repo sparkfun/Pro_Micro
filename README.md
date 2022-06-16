@@ -10,7 +10,7 @@ SparkFun Pro Micro and Qwiic Pro Micro USB-C
   <tr>
     <td><div align="center">Pro Micro - 3.3V/8MHz <br />[<a href="https://www.sparkfun.com/products/12587">DEV-12587</a>]</div></td>
     <td><div align="center">Pro Micro - 5V/16MHz <br />[<a href="https://www.sparkfun.com/products/12640">DEV-12640</a>]</div></td>
-    <td><div align="center">Qwiic Pro Micro - USB-C (ATmega32U4) [<a href="https://www.sparkfun.com/products/15795">DEV-15795</a>]</div></td>
+    <td><div align="center">Qwiic Pro Micro - USB-C (ATmega32U4) <br />[<a href="https://www.sparkfun.com/products/15795">DEV-15795</a>]</div></td>
   </tr>
 </table>
 
